@@ -1,0 +1,1453 @@
+├─ type: SourceUnit
+└─ children
+   ├─ 0
+   │  ├─ type: PragmaDirective
+   │  ├─ name: solidity
+   │  └─ value: >=0.5.0
+   ├─ 1
+   │  ├─ type: ImportDirective
+   │  ├─ path: ./lib.sol
+   │  ├─ unitAlias
+   │  └─ symbolAliases
+   ├─ 2
+   │  ├─ type: ContractDefinition
+   │  ├─ name: GemLike
+   │  ├─ baseContracts
+   │  ├─ subNodes
+   │  │  ├─ 0
+   │  │  │  ├─ type: FunctionDefinition
+   │  │  │  ├─ name: transfer
+   │  │  │  ├─ parameters
+   │  │  │  │  ├─ type: ParameterList
+   │  │  │  │  └─ parameters
+   │  │  │  │     ├─ 0
+   │  │  │  │     │  ├─ type: Parameter
+   │  │  │  │     │  ├─ typeName
+   │  │  │  │     │  │  ├─ type: ElementaryTypeName
+   │  │  │  │     │  │  └─ name: address
+   │  │  │  │     │  ├─ name
+   │  │  │  │     │  ├─ storageLocation
+   │  │  │  │     │  ├─ isStateVar: false
+   │  │  │  │     │  └─ isIndexed: false
+   │  │  │  │     └─ 1
+   │  │  │  │        ├─ type: Parameter
+   │  │  │  │        ├─ typeName
+   │  │  │  │        │  ├─ type: ElementaryTypeName
+   │  │  │  │        │  └─ name: uint
+   │  │  │  │        ├─ name
+   │  │  │  │        ├─ storageLocation
+   │  │  │  │        ├─ isStateVar: false
+   │  │  │  │        └─ isIndexed: false
+   │  │  │  ├─ returnParameters
+   │  │  │  │  ├─ type: ParameterList
+   │  │  │  │  └─ parameters
+   │  │  │  │     └─ 0
+   │  │  │  │        ├─ type: Parameter
+   │  │  │  │        ├─ typeName
+   │  │  │  │        │  ├─ type: ElementaryTypeName
+   │  │  │  │        │  └─ name: bool
+   │  │  │  │        ├─ name
+   │  │  │  │        ├─ storageLocation
+   │  │  │  │        ├─ isStateVar: false
+   │  │  │  │        └─ isIndexed: false
+   │  │  │  ├─ body
+   │  │  │  ├─ visibility: public
+   │  │  │  ├─ modifiers
+   │  │  │  ├─ isConstructor: false
+   │  │  │  └─ stateMutability
+   │  │  └─ 1
+   │  │     ├─ type: FunctionDefinition
+   │  │     ├─ name: transferFrom
+   │  │     ├─ parameters
+   │  │     │  ├─ type: ParameterList
+   │  │     │  └─ parameters
+   │  │     │     ├─ 0
+   │  │     │     │  ├─ type: Parameter
+   │  │     │     │  ├─ typeName
+   │  │     │     │  │  ├─ type: ElementaryTypeName
+   │  │     │     │  │  └─ name: address
+   │  │     │     │  ├─ name
+   │  │     │     │  ├─ storageLocation
+   │  │     │     │  ├─ isStateVar: false
+   │  │     │     │  └─ isIndexed: false
+   │  │     │     ├─ 1
+   │  │     │     │  ├─ type: Parameter
+   │  │     │     │  ├─ typeName
+   │  │     │     │  │  ├─ type: ElementaryTypeName
+   │  │     │     │  │  └─ name: address
+   │  │     │     │  ├─ name
+   │  │     │     │  ├─ storageLocation
+   │  │     │     │  ├─ isStateVar: false
+   │  │     │     │  └─ isIndexed: false
+   │  │     │     └─ 2
+   │  │     │        ├─ type: Parameter
+   │  │     │        ├─ typeName
+   │  │     │        │  ├─ type: ElementaryTypeName
+   │  │     │        │  └─ name: uint
+   │  │     │        ├─ name
+   │  │     │        ├─ storageLocation
+   │  │     │        ├─ isStateVar: false
+   │  │     │        └─ isIndexed: false
+   │  │     ├─ returnParameters
+   │  │     │  ├─ type: ParameterList
+   │  │     │  └─ parameters
+   │  │     │     └─ 0
+   │  │     │        ├─ type: Parameter
+   │  │     │        ├─ typeName
+   │  │     │        │  ├─ type: ElementaryTypeName
+   │  │     │        │  └─ name: bool
+   │  │     │        ├─ name
+   │  │     │        ├─ storageLocation
+   │  │     │        ├─ isStateVar: false
+   │  │     │        └─ isIndexed: false
+   │  │     ├─ body
+   │  │     ├─ visibility: public
+   │  │     ├─ modifiers
+   │  │     ├─ isConstructor: false
+   │  │     └─ stateMutability
+   │  └─ kind: contract
+   ├─ 3
+   │  ├─ type: ContractDefinition
+   │  ├─ name: DSTokenLike
+   │  ├─ baseContracts
+   │  ├─ subNodes
+   │  │  ├─ 0
+   │  │  │  ├─ type: FunctionDefinition
+   │  │  │  ├─ name: mint
+   │  │  │  ├─ parameters
+   │  │  │  │  ├─ type: ParameterList
+   │  │  │  │  └─ parameters
+   │  │  │  │     ├─ 0
+   │  │  │  │     │  ├─ type: Parameter
+   │  │  │  │     │  ├─ typeName
+   │  │  │  │     │  │  ├─ type: ElementaryTypeName
+   │  │  │  │     │  │  └─ name: address
+   │  │  │  │     │  ├─ name
+   │  │  │  │     │  ├─ storageLocation
+   │  │  │  │     │  ├─ isStateVar: false
+   │  │  │  │     │  └─ isIndexed: false
+   │  │  │  │     └─ 1
+   │  │  │  │        ├─ type: Parameter
+   │  │  │  │        ├─ typeName
+   │  │  │  │        │  ├─ type: ElementaryTypeName
+   │  │  │  │        │  └─ name: uint
+   │  │  │  │        ├─ name
+   │  │  │  │        ├─ storageLocation
+   │  │  │  │        ├─ isStateVar: false
+   │  │  │  │        └─ isIndexed: false
+   │  │  │  ├─ returnParameters
+   │  │  │  ├─ body
+   │  │  │  ├─ visibility: public
+   │  │  │  ├─ modifiers
+   │  │  │  ├─ isConstructor: false
+   │  │  │  └─ stateMutability
+   │  │  └─ 1
+   │  │     ├─ type: FunctionDefinition
+   │  │     ├─ name: burn
+   │  │     ├─ parameters
+   │  │     │  ├─ type: ParameterList
+   │  │     │  └─ parameters
+   │  │     │     ├─ 0
+   │  │     │     │  ├─ type: Parameter
+   │  │     │     │  ├─ typeName
+   │  │     │     │  │  ├─ type: ElementaryTypeName
+   │  │     │     │  │  └─ name: address
+   │  │     │     │  ├─ name
+   │  │     │     │  ├─ storageLocation
+   │  │     │     │  ├─ isStateVar: false
+   │  │     │     │  └─ isIndexed: false
+   │  │     │     └─ 1
+   │  │     │        ├─ type: Parameter
+   │  │     │        ├─ typeName
+   │  │     │        │  ├─ type: ElementaryTypeName
+   │  │     │        │  └─ name: uint
+   │  │     │        ├─ name
+   │  │     │        ├─ storageLocation
+   │  │     │        ├─ isStateVar: false
+   │  │     │        └─ isIndexed: false
+   │  │     ├─ returnParameters
+   │  │     ├─ body
+   │  │     ├─ visibility: public
+   │  │     ├─ modifiers
+   │  │     ├─ isConstructor: false
+   │  │     └─ stateMutability
+   │  └─ kind: contract
+   ├─ 4
+   │  ├─ type: ContractDefinition
+   │  ├─ name: VatLike
+   │  ├─ baseContracts
+   │  ├─ subNodes
+   │  │  ├─ 0
+   │  │  │  ├─ type: FunctionDefinition
+   │  │  │  ├─ name: slip
+   │  │  │  ├─ parameters
+   │  │  │  │  ├─ type: ParameterList
+   │  │  │  │  └─ parameters
+   │  │  │  │     ├─ 0
+   │  │  │  │     │  ├─ type: Parameter
+   │  │  │  │     │  ├─ typeName
+   │  │  │  │     │  │  ├─ type: ElementaryTypeName
+   │  │  │  │     │  │  └─ name: bytes32
+   │  │  │  │     │  ├─ name
+   │  │  │  │     │  ├─ storageLocation
+   │  │  │  │     │  ├─ isStateVar: false
+   │  │  │  │     │  └─ isIndexed: false
+   │  │  │  │     ├─ 1
+   │  │  │  │     │  ├─ type: Parameter
+   │  │  │  │     │  ├─ typeName
+   │  │  │  │     │  │  ├─ type: ElementaryTypeName
+   │  │  │  │     │  │  └─ name: address
+   │  │  │  │     │  ├─ name
+   │  │  │  │     │  ├─ storageLocation
+   │  │  │  │     │  ├─ isStateVar: false
+   │  │  │  │     │  └─ isIndexed: false
+   │  │  │  │     └─ 2
+   │  │  │  │        ├─ type: Parameter
+   │  │  │  │        ├─ typeName
+   │  │  │  │        │  ├─ type: ElementaryTypeName
+   │  │  │  │        │  └─ name: int
+   │  │  │  │        ├─ name
+   │  │  │  │        ├─ storageLocation
+   │  │  │  │        ├─ isStateVar: false
+   │  │  │  │        └─ isIndexed: false
+   │  │  │  ├─ returnParameters
+   │  │  │  ├─ body
+   │  │  │  ├─ visibility: public
+   │  │  │  ├─ modifiers
+   │  │  │  ├─ isConstructor: false
+   │  │  │  └─ stateMutability
+   │  │  ├─ 1
+   │  │  │  ├─ type: FunctionDefinition
+   │  │  │  ├─ name: move
+   │  │  │  ├─ parameters
+   │  │  │  │  ├─ type: ParameterList
+   │  │  │  │  └─ parameters
+   │  │  │  │     ├─ 0
+   │  │  │  │     │  ├─ type: Parameter
+   │  │  │  │     │  ├─ typeName
+   │  │  │  │     │  │  ├─ type: ElementaryTypeName
+   │  │  │  │     │  │  └─ name: address
+   │  │  │  │     │  ├─ name
+   │  │  │  │     │  ├─ storageLocation
+   │  │  │  │     │  ├─ isStateVar: false
+   │  │  │  │     │  └─ isIndexed: false
+   │  │  │  │     ├─ 1
+   │  │  │  │     │  ├─ type: Parameter
+   │  │  │  │     │  ├─ typeName
+   │  │  │  │     │  │  ├─ type: ElementaryTypeName
+   │  │  │  │     │  │  └─ name: address
+   │  │  │  │     │  ├─ name
+   │  │  │  │     │  ├─ storageLocation
+   │  │  │  │     │  ├─ isStateVar: false
+   │  │  │  │     │  └─ isIndexed: false
+   │  │  │  │     └─ 2
+   │  │  │  │        ├─ type: Parameter
+   │  │  │  │        ├─ typeName
+   │  │  │  │        │  ├─ type: ElementaryTypeName
+   │  │  │  │        │  └─ name: uint
+   │  │  │  │        ├─ name
+   │  │  │  │        ├─ storageLocation
+   │  │  │  │        ├─ isStateVar: false
+   │  │  │  │        └─ isIndexed: false
+   │  │  │  ├─ returnParameters
+   │  │  │  ├─ body
+   │  │  │  ├─ visibility: public
+   │  │  │  ├─ modifiers
+   │  │  │  ├─ isConstructor: false
+   │  │  │  └─ stateMutability
+   │  │  └─ 2
+   │  │     ├─ type: FunctionDefinition
+   │  │     ├─ name: flux
+   │  │     ├─ parameters
+   │  │     │  ├─ type: ParameterList
+   │  │     │  └─ parameters
+   │  │     │     ├─ 0
+   │  │     │     │  ├─ type: Parameter
+   │  │     │     │  ├─ typeName
+   │  │     │     │  │  ├─ type: ElementaryTypeName
+   │  │     │     │  │  └─ name: bytes32
+   │  │     │     │  ├─ name
+   │  │     │     │  ├─ storageLocation
+   │  │     │     │  ├─ isStateVar: false
+   │  │     │     │  └─ isIndexed: false
+   │  │     │     ├─ 1
+   │  │     │     │  ├─ type: Parameter
+   │  │     │     │  ├─ typeName
+   │  │     │     │  │  ├─ type: ElementaryTypeName
+   │  │     │     │  │  └─ name: address
+   │  │     │     │  ├─ name
+   │  │     │     │  ├─ storageLocation
+   │  │     │     │  ├─ isStateVar: false
+   │  │     │     │  └─ isIndexed: false
+   │  │     │     ├─ 2
+   │  │     │     │  ├─ type: Parameter
+   │  │     │     │  ├─ typeName
+   │  │     │     │  │  ├─ type: ElementaryTypeName
+   │  │     │     │  │  └─ name: address
+   │  │     │     │  ├─ name
+   │  │     │     │  ├─ storageLocation
+   │  │     │     │  ├─ isStateVar: false
+   │  │     │     │  └─ isIndexed: false
+   │  │     │     └─ 3
+   │  │     │        ├─ type: Parameter
+   │  │     │        ├─ typeName
+   │  │     │        │  ├─ type: ElementaryTypeName
+   │  │     │        │  └─ name: uint
+   │  │     │        ├─ name
+   │  │     │        ├─ storageLocation
+   │  │     │        ├─ isStateVar: false
+   │  │     │        └─ isIndexed: false
+   │  │     ├─ returnParameters
+   │  │     ├─ body
+   │  │     ├─ visibility: public
+   │  │     ├─ modifiers
+   │  │     ├─ isConstructor: false
+   │  │     └─ stateMutability
+   │  └─ kind: contract
+   ├─ 5
+   │  ├─ type: ContractDefinition
+   │  ├─ name: GemJoin
+   │  ├─ baseContracts
+   │  │  └─ 0
+   │  │     ├─ type: InheritanceSpecifier
+   │  │     ├─ baseName
+   │  │     │  ├─ type: UserDefinedTypeName
+   │  │     │  └─ namePath: DSNote
+   │  │     └─ arguments
+   │  ├─ subNodes
+   │  │  ├─ 0
+   │  │  │  ├─ type: StateVariableDeclaration
+   │  │  │  ├─ variables
+   │  │  │  │  └─ 0
+   │  │  │  │     ├─ type: VariableDeclaration
+   │  │  │  │     ├─ typeName
+   │  │  │  │     │  ├─ type: UserDefinedTypeName
+   │  │  │  │     │  └─ namePath: VatLike
+   │  │  │  │     ├─ name: vat
+   │  │  │  │     ├─ expression
+   │  │  │  │     ├─ visibility: public
+   │  │  │  │     ├─ isStateVar: true
+   │  │  │  │     ├─ isDeclaredConst: false
+   │  │  │  │     └─ isIndexed: false
+   │  │  │  └─ initialValue
+   │  │  ├─ 1
+   │  │  │  ├─ type: StateVariableDeclaration
+   │  │  │  ├─ variables
+   │  │  │  │  └─ 0
+   │  │  │  │     ├─ type: VariableDeclaration
+   │  │  │  │     ├─ typeName
+   │  │  │  │     │  ├─ type: ElementaryTypeName
+   │  │  │  │     │  └─ name: bytes32
+   │  │  │  │     ├─ name: ilk
+   │  │  │  │     ├─ expression
+   │  │  │  │     ├─ visibility: public
+   │  │  │  │     ├─ isStateVar: true
+   │  │  │  │     ├─ isDeclaredConst: false
+   │  │  │  │     └─ isIndexed: false
+   │  │  │  └─ initialValue
+   │  │  ├─ 2
+   │  │  │  ├─ type: StateVariableDeclaration
+   │  │  │  ├─ variables
+   │  │  │  │  └─ 0
+   │  │  │  │     ├─ type: VariableDeclaration
+   │  │  │  │     ├─ typeName
+   │  │  │  │     │  ├─ type: UserDefinedTypeName
+   │  │  │  │     │  └─ namePath: GemLike
+   │  │  │  │     ├─ name: gem
+   │  │  │  │     ├─ expression
+   │  │  │  │     ├─ visibility: public
+   │  │  │  │     ├─ isStateVar: true
+   │  │  │  │     ├─ isDeclaredConst: false
+   │  │  │  │     └─ isIndexed: false
+   │  │  │  └─ initialValue
+   │  │  ├─ 3
+   │  │  │  ├─ type: FunctionDefinition
+   │  │  │  ├─ name
+   │  │  │  ├─ parameters
+   │  │  │  │  ├─ type: ParameterList
+   │  │  │  │  └─ parameters
+   │  │  │  │     ├─ 0
+   │  │  │  │     │  ├─ type: Parameter
+   │  │  │  │     │  ├─ typeName
+   │  │  │  │     │  │  ├─ type: ElementaryTypeName
+   │  │  │  │     │  │  └─ name: address
+   │  │  │  │     │  ├─ name: vat_
+   │  │  │  │     │  ├─ storageLocation
+   │  │  │  │     │  ├─ isStateVar: false
+   │  │  │  │     │  └─ isIndexed: false
+   │  │  │  │     ├─ 1
+   │  │  │  │     │  ├─ type: Parameter
+   │  │  │  │     │  ├─ typeName
+   │  │  │  │     │  │  ├─ type: ElementaryTypeName
+   │  │  │  │     │  │  └─ name: bytes32
+   │  │  │  │     │  ├─ name: ilk_
+   │  │  │  │     │  ├─ storageLocation
+   │  │  │  │     │  ├─ isStateVar: false
+   │  │  │  │     │  └─ isIndexed: false
+   │  │  │  │     └─ 2
+   │  │  │  │        ├─ type: Parameter
+   │  │  │  │        ├─ typeName
+   │  │  │  │        │  ├─ type: ElementaryTypeName
+   │  │  │  │        │  └─ name: address
+   │  │  │  │        ├─ name: gem_
+   │  │  │  │        ├─ storageLocation
+   │  │  │  │        ├─ isStateVar: false
+   │  │  │  │        └─ isIndexed: false
+   │  │  │  ├─ body
+   │  │  │  │  ├─ type: Block
+   │  │  │  │  └─ statements
+   │  │  │  │     ├─ 0
+   │  │  │  │     │  ├─ type: ExpressionStatement
+   │  │  │  │     │  └─ expression
+   │  │  │  │     │     ├─ type: BinaryOperation
+   │  │  │  │     │     ├─ operator: =
+   │  │  │  │     │     ├─ left
+   │  │  │  │     │     │  ├─ type: Identifier
+   │  │  │  │     │     │  └─ name: vat
+   │  │  │  │     │     └─ right
+   │  │  │  │     │        ├─ type: FunctionCall
+   │  │  │  │     │        ├─ expression
+   │  │  │  │     │        │  ├─ type: Identifier
+   │  │  │  │     │        │  └─ name: VatLike
+   │  │  │  │     │        ├─ arguments
+   │  │  │  │     │        │  └─ 0
+   │  │  │  │     │        │     ├─ type: Identifier
+   │  │  │  │     │        │     └─ name: vat_
+   │  │  │  │     │        └─ names
+   │  │  │  │     ├─ 1
+   │  │  │  │     │  ├─ type: ExpressionStatement
+   │  │  │  │     │  └─ expression
+   │  │  │  │     │     ├─ type: BinaryOperation
+   │  │  │  │     │     ├─ operator: =
+   │  │  │  │     │     ├─ left
+   │  │  │  │     │     │  ├─ type: Identifier
+   │  │  │  │     │     │  └─ name: ilk
+   │  │  │  │     │     └─ right
+   │  │  │  │     │        ├─ type: Identifier
+   │  │  │  │     │        └─ name: ilk_
+   │  │  │  │     └─ 2
+   │  │  │  │        ├─ type: ExpressionStatement
+   │  │  │  │        └─ expression
+   │  │  │  │           ├─ type: BinaryOperation
+   │  │  │  │           ├─ operator: =
+   │  │  │  │           ├─ left
+   │  │  │  │           │  ├─ type: Identifier
+   │  │  │  │           │  └─ name: gem
+   │  │  │  │           └─ right
+   │  │  │  │              ├─ type: FunctionCall
+   │  │  │  │              ├─ expression
+   │  │  │  │              │  ├─ type: Identifier
+   │  │  │  │              │  └─ name: GemLike
+   │  │  │  │              ├─ arguments
+   │  │  │  │              │  └─ 0
+   │  │  │  │              │     ├─ type: Identifier
+   │  │  │  │              │     └─ name: gem_
+   │  │  │  │              └─ names
+   │  │  │  ├─ visibility: public
+   │  │  │  ├─ modifiers
+   │  │  │  ├─ isConstructor: true
+   │  │  │  └─ stateMutability
+   │  │  ├─ 4
+   │  │  │  ├─ type: FunctionDefinition
+   │  │  │  ├─ name: join
+   │  │  │  ├─ parameters
+   │  │  │  │  ├─ type: ParameterList
+   │  │  │  │  └─ parameters
+   │  │  │  │     ├─ 0
+   │  │  │  │     │  ├─ type: Parameter
+   │  │  │  │     │  ├─ typeName
+   │  │  │  │     │  │  ├─ type: ElementaryTypeName
+   │  │  │  │     │  │  └─ name: address
+   │  │  │  │     │  ├─ name: usr
+   │  │  │  │     │  ├─ storageLocation
+   │  │  │  │     │  ├─ isStateVar: false
+   │  │  │  │     │  └─ isIndexed: false
+   │  │  │  │     └─ 1
+   │  │  │  │        ├─ type: Parameter
+   │  │  │  │        ├─ typeName
+   │  │  │  │        │  ├─ type: ElementaryTypeName
+   │  │  │  │        │  └─ name: uint
+   │  │  │  │        ├─ name: wad
+   │  │  │  │        ├─ storageLocation
+   │  │  │  │        ├─ isStateVar: false
+   │  │  │  │        └─ isIndexed: false
+   │  │  │  ├─ returnParameters
+   │  │  │  ├─ body
+   │  │  │  │  ├─ type: Block
+   │  │  │  │  └─ statements
+   │  │  │  │     ├─ 0
+   │  │  │  │     │  ├─ type: ExpressionStatement
+   │  │  │  │     │  └─ expression
+   │  │  │  │     │     ├─ type: FunctionCall
+   │  │  │  │     │     ├─ expression
+   │  │  │  │     │     │  ├─ type: Identifier
+   │  │  │  │     │     │  └─ name: require
+   │  │  │  │     │     ├─ arguments
+   │  │  │  │     │     │  └─ 0
+   │  │  │  │     │     │     ├─ type: BinaryOperation
+   │  │  │  │     │     │     ├─ operator: >=
+   │  │  │  │     │     │     ├─ left
+   │  │  │  │     │     │     │  ├─ type: FunctionCall
+   │  │  │  │     │     │     │  ├─ expression
+   │  │  │  │     │     │     │  │  ├─ type: ElementaryTypeNameExpression
+   │  │  │  │     │     │     │  │  └─ typeName
+   │  │  │  │     │     │     │  │     ├─ type: ElementaryTypeName
+   │  │  │  │     │     │     │  │     └─ name: int
+   │  │  │  │     │     │     │  ├─ arguments
+   │  │  │  │     │     │     │  │  └─ 0
+   │  │  │  │     │     │     │  │     ├─ type: Identifier
+   │  │  │  │     │     │     │  │     └─ name: wad
+   │  │  │  │     │     │     │  └─ names
+   │  │  │  │     │     │     └─ right
+   │  │  │  │     │     │        ├─ type: NumberLiteral
+   │  │  │  │     │     │        ├─ number: 0
+   │  │  │  │     │     │        └─ subdenomination
+   │  │  │  │     │     └─ names
+   │  │  │  │     ├─ 1
+   │  │  │  │     │  ├─ type: ExpressionStatement
+   │  │  │  │     │  └─ expression
+   │  │  │  │     │     ├─ type: FunctionCall
+   │  │  │  │     │     ├─ expression
+   │  │  │  │     │     │  ├─ type: MemberAccess
+   │  │  │  │     │     │  ├─ expression
+   │  │  │  │     │     │  │  ├─ type: Identifier
+   │  │  │  │     │     │  │  └─ name: vat
+   │  │  │  │     │     │  └─ memberName: slip
+   │  │  │  │     │     ├─ arguments
+   │  │  │  │     │     │  ├─ 0
+   │  │  │  │     │     │  │  ├─ type: Identifier
+   │  │  │  │     │     │  │  └─ name: ilk
+   │  │  │  │     │     │  ├─ 1
+   │  │  │  │     │     │  │  ├─ type: Identifier
+   │  │  │  │     │     │  │  └─ name: usr
+   │  │  │  │     │     │  └─ 2
+   │  │  │  │     │     │     ├─ type: FunctionCall
+   │  │  │  │     │     │     ├─ expression
+   │  │  │  │     │     │     │  ├─ type: ElementaryTypeNameExpression
+   │  │  │  │     │     │     │  └─ typeName
+   │  │  │  │     │     │     │     ├─ type: ElementaryTypeName
+   │  │  │  │     │     │     │     └─ name: int
+   │  │  │  │     │     │     ├─ arguments
+   │  │  │  │     │     │     │  └─ 0
+   │  │  │  │     │     │     │     ├─ type: Identifier
+   │  │  │  │     │     │     │     └─ name: wad
+   │  │  │  │     │     │     └─ names
+   │  │  │  │     │     └─ names
+   │  │  │  │     └─ 2
+   │  │  │  │        ├─ type: ExpressionStatement
+   │  │  │  │        └─ expression
+   │  │  │  │           ├─ type: FunctionCall
+   │  │  │  │           ├─ expression
+   │  │  │  │           │  ├─ type: Identifier
+   │  │  │  │           │  └─ name: require
+   │  │  │  │           ├─ arguments
+   │  │  │  │           │  └─ 0
+   │  │  │  │           │     ├─ type: FunctionCall
+   │  │  │  │           │     ├─ expression
+   │  │  │  │           │     │  ├─ type: MemberAccess
+   │  │  │  │           │     │  ├─ expression
+   │  │  │  │           │     │  │  ├─ type: Identifier
+   │  │  │  │           │     │  │  └─ name: gem
+   │  │  │  │           │     │  └─ memberName: transferFrom
+   │  │  │  │           │     ├─ arguments
+   │  │  │  │           │     │  ├─ 0
+   │  │  │  │           │     │  │  ├─ type: MemberAccess
+   │  │  │  │           │     │  │  ├─ expression
+   │  │  │  │           │     │  │  │  ├─ type: Identifier
+   │  │  │  │           │     │  │  │  └─ name: msg
+   │  │  │  │           │     │  │  └─ memberName: sender
+   │  │  │  │           │     │  ├─ 1
+   │  │  │  │           │     │  │  ├─ type: FunctionCall
+   │  │  │  │           │     │  │  ├─ expression
+   │  │  │  │           │     │  │  │  ├─ type: ElementaryTypeNameExpression
+   │  │  │  │           │     │  │  │  └─ typeName
+   │  │  │  │           │     │  │  │     ├─ type: ElementaryTypeName
+   │  │  │  │           │     │  │  │     └─ name: address
+   │  │  │  │           │     │  │  ├─ arguments
+   │  │  │  │           │     │  │  │  └─ 0
+   │  │  │  │           │     │  │  │     ├─ type: Identifier
+   │  │  │  │           │     │  │  │     └─ name: this
+   │  │  │  │           │     │  │  └─ names
+   │  │  │  │           │     │  └─ 2
+   │  │  │  │           │     │     ├─ type: Identifier
+   │  │  │  │           │     │     └─ name: wad
+   │  │  │  │           │     └─ names
+   │  │  │  │           └─ names
+   │  │  │  ├─ visibility: public
+   │  │  │  ├─ modifiers
+   │  │  │  │  └─ 0
+   │  │  │  │     ├─ type: ModifierInvocation
+   │  │  │  │     ├─ name: note
+   │  │  │  │     └─ arguments
+   │  │  │  ├─ isConstructor: false
+   │  │  │  └─ stateMutability
+   │  │  └─ 5
+   │  │     ├─ type: FunctionDefinition
+   │  │     ├─ name: exit
+   │  │     ├─ parameters
+   │  │     │  ├─ type: ParameterList
+   │  │     │  └─ parameters
+   │  │     │     ├─ 0
+   │  │     │     │  ├─ type: Parameter
+   │  │     │     │  ├─ typeName
+   │  │     │     │  │  ├─ type: ElementaryTypeName
+   │  │     │     │  │  └─ name: address
+   │  │     │     │  ├─ name: usr
+   │  │     │     │  ├─ storageLocation
+   │  │     │     │  ├─ isStateVar: false
+   │  │     │     │  └─ isIndexed: false
+   │  │     │     └─ 1
+   │  │     │        ├─ type: Parameter
+   │  │     │        ├─ typeName
+   │  │     │        │  ├─ type: ElementaryTypeName
+   │  │     │        │  └─ name: uint
+   │  │     │        ├─ name: wad
+   │  │     │        ├─ storageLocation
+   │  │     │        ├─ isStateVar: false
+   │  │     │        └─ isIndexed: false
+   │  │     ├─ returnParameters
+   │  │     ├─ body
+   │  │     │  ├─ type: Block
+   │  │     │  └─ statements
+   │  │     │     ├─ 0
+   │  │     │     │  ├─ type: ExpressionStatement
+   │  │     │     │  └─ expression
+   │  │     │     │     ├─ type: FunctionCall
+   │  │     │     │     ├─ expression
+   │  │     │     │     │  ├─ type: Identifier
+   │  │     │     │     │  └─ name: require
+   │  │     │     │     ├─ arguments
+   │  │     │     │     │  └─ 0
+   │  │     │     │     │     ├─ type: BinaryOperation
+   │  │     │     │     │     ├─ operator: <=
+   │  │     │     │     │     ├─ left
+   │  │     │     │     │     │  ├─ type: Identifier
+   │  │     │     │     │     │  └─ name: wad
+   │  │     │     │     │     └─ right
+   │  │     │     │     │        ├─ type: BinaryOperation
+   │  │     │     │     │        ├─ operator: **
+   │  │     │     │     │        ├─ left
+   │  │     │     │     │        │  ├─ type: NumberLiteral
+   │  │     │     │     │        │  ├─ number: 2
+   │  │     │     │     │        │  └─ subdenomination
+   │  │     │     │     │        └─ right
+   │  │     │     │     │           ├─ type: NumberLiteral
+   │  │     │     │     │           ├─ number: 255
+   │  │     │     │     │           └─ subdenomination
+   │  │     │     │     └─ names
+   │  │     │     ├─ 1
+   │  │     │     │  ├─ type: ExpressionStatement
+   │  │     │     │  └─ expression
+   │  │     │     │     ├─ type: FunctionCall
+   │  │     │     │     ├─ expression
+   │  │     │     │     │  ├─ type: MemberAccess
+   │  │     │     │     │  ├─ expression
+   │  │     │     │     │  │  ├─ type: Identifier
+   │  │     │     │     │  │  └─ name: vat
+   │  │     │     │     │  └─ memberName: slip
+   │  │     │     │     ├─ arguments
+   │  │     │     │     │  ├─ 0
+   │  │     │     │     │  │  ├─ type: Identifier
+   │  │     │     │     │  │  └─ name: ilk
+   │  │     │     │     │  ├─ 1
+   │  │     │     │     │  │  ├─ type: MemberAccess
+   │  │     │     │     │  │  ├─ expression
+   │  │     │     │     │  │  │  ├─ type: Identifier
+   │  │     │     │     │  │  │  └─ name: msg
+   │  │     │     │     │  │  └─ memberName: sender
+   │  │     │     │     │  └─ 2
+   │  │     │     │     │     ├─ type: UnaryOperation
+   │  │     │     │     │     ├─ operator: -
+   │  │     │     │     │     ├─ subExpression
+   │  │     │     │     │     │  ├─ type: FunctionCall
+   │  │     │     │     │     │  ├─ expression
+   │  │     │     │     │     │  │  ├─ type: ElementaryTypeNameExpression
+   │  │     │     │     │     │  │  └─ typeName
+   │  │     │     │     │     │  │     ├─ type: ElementaryTypeName
+   │  │     │     │     │     │  │     └─ name: int
+   │  │     │     │     │     │  ├─ arguments
+   │  │     │     │     │     │  │  └─ 0
+   │  │     │     │     │     │  │     ├─ type: Identifier
+   │  │     │     │     │     │  │     └─ name: wad
+   │  │     │     │     │     │  └─ names
+   │  │     │     │     │     └─ isPrefix: true
+   │  │     │     │     └─ names
+   │  │     │     └─ 2
+   │  │     │        ├─ type: ExpressionStatement
+   │  │     │        └─ expression
+   │  │     │           ├─ type: FunctionCall
+   │  │     │           ├─ expression
+   │  │     │           │  ├─ type: Identifier
+   │  │     │           │  └─ name: require
+   │  │     │           ├─ arguments
+   │  │     │           │  └─ 0
+   │  │     │           │     ├─ type: FunctionCall
+   │  │     │           │     ├─ expression
+   │  │     │           │     │  ├─ type: MemberAccess
+   │  │     │           │     │  ├─ expression
+   │  │     │           │     │  │  ├─ type: Identifier
+   │  │     │           │     │  │  └─ name: gem
+   │  │     │           │     │  └─ memberName: transfer
+   │  │     │           │     ├─ arguments
+   │  │     │           │     │  ├─ 0
+   │  │     │           │     │  │  ├─ type: Identifier
+   │  │     │           │     │  │  └─ name: usr
+   │  │     │           │     │  └─ 1
+   │  │     │           │     │     ├─ type: Identifier
+   │  │     │           │     │     └─ name: wad
+   │  │     │           │     └─ names
+   │  │     │           └─ names
+   │  │     ├─ visibility: public
+   │  │     ├─ modifiers
+   │  │     │  └─ 0
+   │  │     │     ├─ type: ModifierInvocation
+   │  │     │     ├─ name: note
+   │  │     │     └─ arguments
+   │  │     ├─ isConstructor: false
+   │  │     └─ stateMutability
+   │  └─ kind: contract
+   ├─ 6
+   │  ├─ type: ContractDefinition
+   │  ├─ name: ETHJoin
+   │  ├─ baseContracts
+   │  │  └─ 0
+   │  │     ├─ type: InheritanceSpecifier
+   │  │     ├─ baseName
+   │  │     │  ├─ type: UserDefinedTypeName
+   │  │     │  └─ namePath: DSNote
+   │  │     └─ arguments
+   │  ├─ subNodes
+   │  │  ├─ 0
+   │  │  │  ├─ type: StateVariableDeclaration
+   │  │  │  ├─ variables
+   │  │  │  │  └─ 0
+   │  │  │  │     ├─ type: VariableDeclaration
+   │  │  │  │     ├─ typeName
+   │  │  │  │     │  ├─ type: UserDefinedTypeName
+   │  │  │  │     │  └─ namePath: VatLike
+   │  │  │  │     ├─ name: vat
+   │  │  │  │     ├─ expression
+   │  │  │  │     ├─ visibility: public
+   │  │  │  │     ├─ isStateVar: true
+   │  │  │  │     ├─ isDeclaredConst: false
+   │  │  │  │     └─ isIndexed: false
+   │  │  │  └─ initialValue
+   │  │  ├─ 1
+   │  │  │  ├─ type: StateVariableDeclaration
+   │  │  │  ├─ variables
+   │  │  │  │  └─ 0
+   │  │  │  │     ├─ type: VariableDeclaration
+   │  │  │  │     ├─ typeName
+   │  │  │  │     │  ├─ type: ElementaryTypeName
+   │  │  │  │     │  └─ name: bytes32
+   │  │  │  │     ├─ name: ilk
+   │  │  │  │     ├─ expression
+   │  │  │  │     ├─ visibility: public
+   │  │  │  │     ├─ isStateVar: true
+   │  │  │  │     ├─ isDeclaredConst: false
+   │  │  │  │     └─ isIndexed: false
+   │  │  │  └─ initialValue
+   │  │  ├─ 2
+   │  │  │  ├─ type: FunctionDefinition
+   │  │  │  ├─ name
+   │  │  │  ├─ parameters
+   │  │  │  │  ├─ type: ParameterList
+   │  │  │  │  └─ parameters
+   │  │  │  │     ├─ 0
+   │  │  │  │     │  ├─ type: Parameter
+   │  │  │  │     │  ├─ typeName
+   │  │  │  │     │  │  ├─ type: ElementaryTypeName
+   │  │  │  │     │  │  └─ name: address
+   │  │  │  │     │  ├─ name: vat_
+   │  │  │  │     │  ├─ storageLocation
+   │  │  │  │     │  ├─ isStateVar: false
+   │  │  │  │     │  └─ isIndexed: false
+   │  │  │  │     └─ 1
+   │  │  │  │        ├─ type: Parameter
+   │  │  │  │        ├─ typeName
+   │  │  │  │        │  ├─ type: ElementaryTypeName
+   │  │  │  │        │  └─ name: bytes32
+   │  │  │  │        ├─ name: ilk_
+   │  │  │  │        ├─ storageLocation
+   │  │  │  │        ├─ isStateVar: false
+   │  │  │  │        └─ isIndexed: false
+   │  │  │  ├─ body
+   │  │  │  │  ├─ type: Block
+   │  │  │  │  └─ statements
+   │  │  │  │     ├─ 0
+   │  │  │  │     │  ├─ type: ExpressionStatement
+   │  │  │  │     │  └─ expression
+   │  │  │  │     │     ├─ type: BinaryOperation
+   │  │  │  │     │     ├─ operator: =
+   │  │  │  │     │     ├─ left
+   │  │  │  │     │     │  ├─ type: Identifier
+   │  │  │  │     │     │  └─ name: vat
+   │  │  │  │     │     └─ right
+   │  │  │  │     │        ├─ type: FunctionCall
+   │  │  │  │     │        ├─ expression
+   │  │  │  │     │        │  ├─ type: Identifier
+   │  │  │  │     │        │  └─ name: VatLike
+   │  │  │  │     │        ├─ arguments
+   │  │  │  │     │        │  └─ 0
+   │  │  │  │     │        │     ├─ type: Identifier
+   │  │  │  │     │        │     └─ name: vat_
+   │  │  │  │     │        └─ names
+   │  │  │  │     └─ 1
+   │  │  │  │        ├─ type: ExpressionStatement
+   │  │  │  │        └─ expression
+   │  │  │  │           ├─ type: BinaryOperation
+   │  │  │  │           ├─ operator: =
+   │  │  │  │           ├─ left
+   │  │  │  │           │  ├─ type: Identifier
+   │  │  │  │           │  └─ name: ilk
+   │  │  │  │           └─ right
+   │  │  │  │              ├─ type: Identifier
+   │  │  │  │              └─ name: ilk_
+   │  │  │  ├─ visibility: public
+   │  │  │  ├─ modifiers
+   │  │  │  ├─ isConstructor: true
+   │  │  │  └─ stateMutability
+   │  │  ├─ 3
+   │  │  │  ├─ type: FunctionDefinition
+   │  │  │  ├─ name: join
+   │  │  │  ├─ parameters
+   │  │  │  │  ├─ type: ParameterList
+   │  │  │  │  └─ parameters
+   │  │  │  │     └─ 0
+   │  │  │  │        ├─ type: Parameter
+   │  │  │  │        ├─ typeName
+   │  │  │  │        │  ├─ type: ElementaryTypeName
+   │  │  │  │        │  └─ name: address
+   │  │  │  │        ├─ name: usr
+   │  │  │  │        ├─ storageLocation
+   │  │  │  │        ├─ isStateVar: false
+   │  │  │  │        └─ isIndexed: false
+   │  │  │  ├─ returnParameters
+   │  │  │  ├─ body
+   │  │  │  │  ├─ type: Block
+   │  │  │  │  └─ statements
+   │  │  │  │     ├─ 0
+   │  │  │  │     │  ├─ type: ExpressionStatement
+   │  │  │  │     │  └─ expression
+   │  │  │  │     │     ├─ type: FunctionCall
+   │  │  │  │     │     ├─ expression
+   │  │  │  │     │     │  ├─ type: Identifier
+   │  │  │  │     │     │  └─ name: require
+   │  │  │  │     │     ├─ arguments
+   │  │  │  │     │     │  └─ 0
+   │  │  │  │     │     │     ├─ type: BinaryOperation
+   │  │  │  │     │     │     ├─ operator: >=
+   │  │  │  │     │     │     ├─ left
+   │  │  │  │     │     │     │  ├─ type: FunctionCall
+   │  │  │  │     │     │     │  ├─ expression
+   │  │  │  │     │     │     │  │  ├─ type: ElementaryTypeNameExpression
+   │  │  │  │     │     │     │  │  └─ typeName
+   │  │  │  │     │     │     │  │     ├─ type: ElementaryTypeName
+   │  │  │  │     │     │     │  │     └─ name: int
+   │  │  │  │     │     │     │  ├─ arguments
+   │  │  │  │     │     │     │  │  └─ 0
+   │  │  │  │     │     │     │  │     ├─ type: MemberAccess
+   │  │  │  │     │     │     │  │     ├─ expression
+   │  │  │  │     │     │     │  │     │  ├─ type: Identifier
+   │  │  │  │     │     │     │  │     │  └─ name: msg
+   │  │  │  │     │     │     │  │     └─ memberName: value
+   │  │  │  │     │     │     │  └─ names
+   │  │  │  │     │     │     └─ right
+   │  │  │  │     │     │        ├─ type: NumberLiteral
+   │  │  │  │     │     │        ├─ number: 0
+   │  │  │  │     │     │        └─ subdenomination
+   │  │  │  │     │     └─ names
+   │  │  │  │     └─ 1
+   │  │  │  │        ├─ type: ExpressionStatement
+   │  │  │  │        └─ expression
+   │  │  │  │           ├─ type: FunctionCall
+   │  │  │  │           ├─ expression
+   │  │  │  │           │  ├─ type: MemberAccess
+   │  │  │  │           │  ├─ expression
+   │  │  │  │           │  │  ├─ type: Identifier
+   │  │  │  │           │  │  └─ name: vat
+   │  │  │  │           │  └─ memberName: slip
+   │  │  │  │           ├─ arguments
+   │  │  │  │           │  ├─ 0
+   │  │  │  │           │  │  ├─ type: Identifier
+   │  │  │  │           │  │  └─ name: ilk
+   │  │  │  │           │  ├─ 1
+   │  │  │  │           │  │  ├─ type: Identifier
+   │  │  │  │           │  │  └─ name: usr
+   │  │  │  │           │  └─ 2
+   │  │  │  │           │     ├─ type: FunctionCall
+   │  │  │  │           │     ├─ expression
+   │  │  │  │           │     │  ├─ type: ElementaryTypeNameExpression
+   │  │  │  │           │     │  └─ typeName
+   │  │  │  │           │     │     ├─ type: ElementaryTypeName
+   │  │  │  │           │     │     └─ name: int
+   │  │  │  │           │     ├─ arguments
+   │  │  │  │           │     │  └─ 0
+   │  │  │  │           │     │     ├─ type: MemberAccess
+   │  │  │  │           │     │     ├─ expression
+   │  │  │  │           │     │     │  ├─ type: Identifier
+   │  │  │  │           │     │     │  └─ name: msg
+   │  │  │  │           │     │     └─ memberName: value
+   │  │  │  │           │     └─ names
+   │  │  │  │           └─ names
+   │  │  │  ├─ visibility: public
+   │  │  │  ├─ modifiers
+   │  │  │  │  └─ 0
+   │  │  │  │     ├─ type: ModifierInvocation
+   │  │  │  │     ├─ name: note
+   │  │  │  │     └─ arguments
+   │  │  │  ├─ isConstructor: false
+   │  │  │  └─ stateMutability: payable
+   │  │  └─ 4
+   │  │     ├─ type: FunctionDefinition
+   │  │     ├─ name: exit
+   │  │     ├─ parameters
+   │  │     │  ├─ type: ParameterList
+   │  │     │  └─ parameters
+   │  │     │     ├─ 0
+   │  │     │     │  ├─ type: Parameter
+   │  │     │     │  ├─ typeName
+   │  │     │     │  │  ├─ type: ElementaryTypeName
+   │  │     │     │  │  ├─ name: address
+   │  │     │     │  │  └─ stateMutability: payable
+   │  │     │     │  ├─ name: usr
+   │  │     │     │  ├─ storageLocation
+   │  │     │     │  ├─ isStateVar: false
+   │  │     │     │  └─ isIndexed: false
+   │  │     │     └─ 1
+   │  │     │        ├─ type: Parameter
+   │  │     │        ├─ typeName
+   │  │     │        │  ├─ type: ElementaryTypeName
+   │  │     │        │  └─ name: uint
+   │  │     │        ├─ name: wad
+   │  │     │        ├─ storageLocation
+   │  │     │        ├─ isStateVar: false
+   │  │     │        └─ isIndexed: false
+   │  │     ├─ returnParameters
+   │  │     ├─ body
+   │  │     │  ├─ type: Block
+   │  │     │  └─ statements
+   │  │     │     ├─ 0
+   │  │     │     │  ├─ type: ExpressionStatement
+   │  │     │     │  └─ expression
+   │  │     │     │     ├─ type: FunctionCall
+   │  │     │     │     ├─ expression
+   │  │     │     │     │  ├─ type: Identifier
+   │  │     │     │     │  └─ name: require
+   │  │     │     │     ├─ arguments
+   │  │     │     │     │  └─ 0
+   │  │     │     │     │     ├─ type: BinaryOperation
+   │  │     │     │     │     ├─ operator: >=
+   │  │     │     │     │     ├─ left
+   │  │     │     │     │     │  ├─ type: FunctionCall
+   │  │     │     │     │     │  ├─ expression
+   │  │     │     │     │     │  │  ├─ type: ElementaryTypeNameExpression
+   │  │     │     │     │     │  │  └─ typeName
+   │  │     │     │     │     │  │     ├─ type: ElementaryTypeName
+   │  │     │     │     │     │  │     └─ name: int
+   │  │     │     │     │     │  ├─ arguments
+   │  │     │     │     │     │  │  └─ 0
+   │  │     │     │     │     │  │     ├─ type: Identifier
+   │  │     │     │     │     │  │     └─ name: wad
+   │  │     │     │     │     │  └─ names
+   │  │     │     │     │     └─ right
+   │  │     │     │     │        ├─ type: NumberLiteral
+   │  │     │     │     │        ├─ number: 0
+   │  │     │     │     │        └─ subdenomination
+   │  │     │     │     └─ names
+   │  │     │     ├─ 1
+   │  │     │     │  ├─ type: ExpressionStatement
+   │  │     │     │  └─ expression
+   │  │     │     │     ├─ type: FunctionCall
+   │  │     │     │     ├─ expression
+   │  │     │     │     │  ├─ type: MemberAccess
+   │  │     │     │     │  ├─ expression
+   │  │     │     │     │  │  ├─ type: Identifier
+   │  │     │     │     │  │  └─ name: vat
+   │  │     │     │     │  └─ memberName: slip
+   │  │     │     │     ├─ arguments
+   │  │     │     │     │  ├─ 0
+   │  │     │     │     │  │  ├─ type: Identifier
+   │  │     │     │     │  │  └─ name: ilk
+   │  │     │     │     │  ├─ 1
+   │  │     │     │     │  │  ├─ type: MemberAccess
+   │  │     │     │     │  │  ├─ expression
+   │  │     │     │     │  │  │  ├─ type: Identifier
+   │  │     │     │     │  │  │  └─ name: msg
+   │  │     │     │     │  │  └─ memberName: sender
+   │  │     │     │     │  └─ 2
+   │  │     │     │     │     ├─ type: UnaryOperation
+   │  │     │     │     │     ├─ operator: -
+   │  │     │     │     │     ├─ subExpression
+   │  │     │     │     │     │  ├─ type: FunctionCall
+   │  │     │     │     │     │  ├─ expression
+   │  │     │     │     │     │  │  ├─ type: ElementaryTypeNameExpression
+   │  │     │     │     │     │  │  └─ typeName
+   │  │     │     │     │     │  │     ├─ type: ElementaryTypeName
+   │  │     │     │     │     │  │     └─ name: int
+   │  │     │     │     │     │  ├─ arguments
+   │  │     │     │     │     │  │  └─ 0
+   │  │     │     │     │     │  │     ├─ type: Identifier
+   │  │     │     │     │     │  │     └─ name: wad
+   │  │     │     │     │     │  └─ names
+   │  │     │     │     │     └─ isPrefix: true
+   │  │     │     │     └─ names
+   │  │     │     └─ 2
+   │  │     │        ├─ type: ExpressionStatement
+   │  │     │        └─ expression
+   │  │     │           ├─ type: FunctionCall
+   │  │     │           ├─ expression
+   │  │     │           │  ├─ type: MemberAccess
+   │  │     │           │  ├─ expression
+   │  │     │           │  │  ├─ type: Identifier
+   │  │     │           │  │  └─ name: usr
+   │  │     │           │  └─ memberName: transfer
+   │  │     │           ├─ arguments
+   │  │     │           │  └─ 0
+   │  │     │           │     ├─ type: Identifier
+   │  │     │           │     └─ name: wad
+   │  │     │           └─ names
+   │  │     ├─ visibility: public
+   │  │     ├─ modifiers
+   │  │     │  └─ 0
+   │  │     │     ├─ type: ModifierInvocation
+   │  │     │     ├─ name: note
+   │  │     │     └─ arguments
+   │  │     ├─ isConstructor: false
+   │  │     └─ stateMutability
+   │  └─ kind: contract
+   └─ 7
+      ├─ type: ContractDefinition
+      ├─ name: DaiJoin
+      ├─ baseContracts
+      │  └─ 0
+      │     ├─ type: InheritanceSpecifier
+      │     ├─ baseName
+      │     │  ├─ type: UserDefinedTypeName
+      │     │  └─ namePath: DSNote
+      │     └─ arguments
+      ├─ subNodes
+      │  ├─ 0
+      │  │  ├─ type: StateVariableDeclaration
+      │  │  ├─ variables
+      │  │  │  └─ 0
+      │  │  │     ├─ type: VariableDeclaration
+      │  │  │     ├─ typeName
+      │  │  │     │  ├─ type: UserDefinedTypeName
+      │  │  │     │  └─ namePath: VatLike
+      │  │  │     ├─ name: vat
+      │  │  │     ├─ expression
+      │  │  │     ├─ visibility: public
+      │  │  │     ├─ isStateVar: true
+      │  │  │     ├─ isDeclaredConst: false
+      │  │  │     └─ isIndexed: false
+      │  │  └─ initialValue
+      │  ├─ 1
+      │  │  ├─ type: StateVariableDeclaration
+      │  │  ├─ variables
+      │  │  │  └─ 0
+      │  │  │     ├─ type: VariableDeclaration
+      │  │  │     ├─ typeName
+      │  │  │     │  ├─ type: UserDefinedTypeName
+      │  │  │     │  └─ namePath: DSTokenLike
+      │  │  │     ├─ name: dai
+      │  │  │     ├─ expression
+      │  │  │     ├─ visibility: public
+      │  │  │     ├─ isStateVar: true
+      │  │  │     ├─ isDeclaredConst: false
+      │  │  │     └─ isIndexed: false
+      │  │  └─ initialValue
+      │  ├─ 2
+      │  │  ├─ type: FunctionDefinition
+      │  │  ├─ name
+      │  │  ├─ parameters
+      │  │  │  ├─ type: ParameterList
+      │  │  │  └─ parameters
+      │  │  │     ├─ 0
+      │  │  │     │  ├─ type: Parameter
+      │  │  │     │  ├─ typeName
+      │  │  │     │  │  ├─ type: ElementaryTypeName
+      │  │  │     │  │  └─ name: address
+      │  │  │     │  ├─ name: vat_
+      │  │  │     │  ├─ storageLocation
+      │  │  │     │  ├─ isStateVar: false
+      │  │  │     │  └─ isIndexed: false
+      │  │  │     └─ 1
+      │  │  │        ├─ type: Parameter
+      │  │  │        ├─ typeName
+      │  │  │        │  ├─ type: ElementaryTypeName
+      │  │  │        │  └─ name: address
+      │  │  │        ├─ name: dai_
+      │  │  │        ├─ storageLocation
+      │  │  │        ├─ isStateVar: false
+      │  │  │        └─ isIndexed: false
+      │  │  ├─ body
+      │  │  │  ├─ type: Block
+      │  │  │  └─ statements
+      │  │  │     ├─ 0
+      │  │  │     │  ├─ type: ExpressionStatement
+      │  │  │     │  └─ expression
+      │  │  │     │     ├─ type: BinaryOperation
+      │  │  │     │     ├─ operator: =
+      │  │  │     │     ├─ left
+      │  │  │     │     │  ├─ type: Identifier
+      │  │  │     │     │  └─ name: vat
+      │  │  │     │     └─ right
+      │  │  │     │        ├─ type: FunctionCall
+      │  │  │     │        ├─ expression
+      │  │  │     │        │  ├─ type: Identifier
+      │  │  │     │        │  └─ name: VatLike
+      │  │  │     │        ├─ arguments
+      │  │  │     │        │  └─ 0
+      │  │  │     │        │     ├─ type: Identifier
+      │  │  │     │        │     └─ name: vat_
+      │  │  │     │        └─ names
+      │  │  │     └─ 1
+      │  │  │        ├─ type: ExpressionStatement
+      │  │  │        └─ expression
+      │  │  │           ├─ type: BinaryOperation
+      │  │  │           ├─ operator: =
+      │  │  │           ├─ left
+      │  │  │           │  ├─ type: Identifier
+      │  │  │           │  └─ name: dai
+      │  │  │           └─ right
+      │  │  │              ├─ type: FunctionCall
+      │  │  │              ├─ expression
+      │  │  │              │  ├─ type: Identifier
+      │  │  │              │  └─ name: DSTokenLike
+      │  │  │              ├─ arguments
+      │  │  │              │  └─ 0
+      │  │  │              │     ├─ type: Identifier
+      │  │  │              │     └─ name: dai_
+      │  │  │              └─ names
+      │  │  ├─ visibility: public
+      │  │  ├─ modifiers
+      │  │  ├─ isConstructor: true
+      │  │  └─ stateMutability
+      │  ├─ 3
+      │  │  ├─ type: StateVariableDeclaration
+      │  │  ├─ variables
+      │  │  │  └─ 0
+      │  │  │     ├─ type: VariableDeclaration
+      │  │  │     ├─ typeName
+      │  │  │     │  ├─ type: ElementaryTypeName
+      │  │  │     │  └─ name: uint
+      │  │  │     ├─ name: ONE
+      │  │  │     ├─ expression
+      │  │  │     │  ├─ type: BinaryOperation
+      │  │  │     │  ├─ operator: **
+      │  │  │     │  ├─ left
+      │  │  │     │  │  ├─ type: NumberLiteral
+      │  │  │     │  │  ├─ number: 10
+      │  │  │     │  │  └─ subdenomination
+      │  │  │     │  └─ right
+      │  │  │     │     ├─ type: NumberLiteral
+      │  │  │     │     ├─ number: 27
+      │  │  │     │     └─ subdenomination
+      │  │  │     ├─ visibility: default
+      │  │  │     ├─ isStateVar: true
+      │  │  │     ├─ isDeclaredConst: true
+      │  │  │     └─ isIndexed: false
+      │  │  └─ initialValue
+      │  │     ├─ type: BinaryOperation
+      │  │     ├─ operator: **
+      │  │     ├─ left
+      │  │     │  ├─ type: NumberLiteral
+      │  │     │  ├─ number: 10
+      │  │     │  └─ subdenomination
+      │  │     └─ right
+      │  │        ├─ type: NumberLiteral
+      │  │        ├─ number: 27
+      │  │        └─ subdenomination
+      │  ├─ 4
+      │  │  ├─ type: FunctionDefinition
+      │  │  ├─ name: mul
+      │  │  ├─ parameters
+      │  │  │  ├─ type: ParameterList
+      │  │  │  └─ parameters
+      │  │  │     ├─ 0
+      │  │  │     │  ├─ type: Parameter
+      │  │  │     │  ├─ typeName
+      │  │  │     │  │  ├─ type: ElementaryTypeName
+      │  │  │     │  │  └─ name: uint
+      │  │  │     │  ├─ name: x
+      │  │  │     │  ├─ storageLocation
+      │  │  │     │  ├─ isStateVar: false
+      │  │  │     │  └─ isIndexed: false
+      │  │  │     └─ 1
+      │  │  │        ├─ type: Parameter
+      │  │  │        ├─ typeName
+      │  │  │        │  ├─ type: ElementaryTypeName
+      │  │  │        │  └─ name: uint
+      │  │  │        ├─ name: y
+      │  │  │        ├─ storageLocation
+      │  │  │        ├─ isStateVar: false
+      │  │  │        └─ isIndexed: false
+      │  │  ├─ returnParameters
+      │  │  │  ├─ type: ParameterList
+      │  │  │  └─ parameters
+      │  │  │     └─ 0
+      │  │  │        ├─ type: Parameter
+      │  │  │        ├─ typeName
+      │  │  │        │  ├─ type: ElementaryTypeName
+      │  │  │        │  └─ name: uint
+      │  │  │        ├─ name: z
+      │  │  │        ├─ storageLocation
+      │  │  │        ├─ isStateVar: false
+      │  │  │        └─ isIndexed: false
+      │  │  ├─ body
+      │  │  │  ├─ type: Block
+      │  │  │  └─ statements
+      │  │  │     └─ 0
+      │  │  │        ├─ type: ExpressionStatement
+      │  │  │        └─ expression
+      │  │  │           ├─ type: FunctionCall
+      │  │  │           ├─ expression
+      │  │  │           │  ├─ type: Identifier
+      │  │  │           │  └─ name: require
+      │  │  │           ├─ arguments
+      │  │  │           │  └─ 0
+      │  │  │           │     ├─ type: BinaryOperation
+      │  │  │           │     ├─ operator: ||
+      │  │  │           │     ├─ left
+      │  │  │           │     │  ├─ type: BinaryOperation
+      │  │  │           │     │  ├─ operator: ==
+      │  │  │           │     │  ├─ left
+      │  │  │           │     │  │  ├─ type: Identifier
+      │  │  │           │     │  │  └─ name: y
+      │  │  │           │     │  └─ right
+      │  │  │           │     │     ├─ type: NumberLiteral
+      │  │  │           │     │     ├─ number: 0
+      │  │  │           │     │     └─ subdenomination
+      │  │  │           │     └─ right
+      │  │  │           │        ├─ type: BinaryOperation
+      │  │  │           │        ├─ operator: ==
+      │  │  │           │        ├─ left
+      │  │  │           │        │  ├─ type: BinaryOperation
+      │  │  │           │        │  ├─ operator: /
+      │  │  │           │        │  ├─ left
+      │  │  │           │        │  │  ├─ type: TupleExpression
+      │  │  │           │        │  │  ├─ components
+      │  │  │           │        │  │  │  └─ 0
+      │  │  │           │        │  │  │     ├─ type: BinaryOperation
+      │  │  │           │        │  │  │     ├─ operator: =
+      │  │  │           │        │  │  │     ├─ left
+      │  │  │           │        │  │  │     │  ├─ type: Identifier
+      │  │  │           │        │  │  │     │  └─ name: z
+      │  │  │           │        │  │  │     └─ right
+      │  │  │           │        │  │  │        ├─ type: BinaryOperation
+      │  │  │           │        │  │  │        ├─ operator: *
+      │  │  │           │        │  │  │        ├─ left
+      │  │  │           │        │  │  │        │  ├─ type: Identifier
+      │  │  │           │        │  │  │        │  └─ name: x
+      │  │  │           │        │  │  │        └─ right
+      │  │  │           │        │  │  │           ├─ type: Identifier
+      │  │  │           │        │  │  │           └─ name: y
+      │  │  │           │        │  │  └─ isArray: false
+      │  │  │           │        │  └─ right
+      │  │  │           │        │     ├─ type: Identifier
+      │  │  │           │        │     └─ name: y
+      │  │  │           │        └─ right
+      │  │  │           │           ├─ type: Identifier
+      │  │  │           │           └─ name: x
+      │  │  │           └─ names
+      │  │  ├─ visibility: internal
+      │  │  ├─ modifiers
+      │  │  ├─ isConstructor: false
+      │  │  └─ stateMutability: pure
+      │  ├─ 5
+      │  │  ├─ type: FunctionDefinition
+      │  │  ├─ name: join
+      │  │  ├─ parameters
+      │  │  │  ├─ type: ParameterList
+      │  │  │  └─ parameters
+      │  │  │     ├─ 0
+      │  │  │     │  ├─ type: Parameter
+      │  │  │     │  ├─ typeName
+      │  │  │     │  │  ├─ type: ElementaryTypeName
+      │  │  │     │  │  └─ name: address
+      │  │  │     │  ├─ name: usr
+      │  │  │     │  ├─ storageLocation
+      │  │  │     │  ├─ isStateVar: false
+      │  │  │     │  └─ isIndexed: false
+      │  │  │     └─ 1
+      │  │  │        ├─ type: Parameter
+      │  │  │        ├─ typeName
+      │  │  │        │  ├─ type: ElementaryTypeName
+      │  │  │        │  └─ name: uint
+      │  │  │        ├─ name: wad
+      │  │  │        ├─ storageLocation
+      │  │  │        ├─ isStateVar: false
+      │  │  │        └─ isIndexed: false
+      │  │  ├─ returnParameters
+      │  │  ├─ body
+      │  │  │  ├─ type: Block
+      │  │  │  └─ statements
+      │  │  │     ├─ 0
+      │  │  │     │  ├─ type: ExpressionStatement
+      │  │  │     │  └─ expression
+      │  │  │     │     ├─ type: FunctionCall
+      │  │  │     │     ├─ expression
+      │  │  │     │     │  ├─ type: MemberAccess
+      │  │  │     │     │  ├─ expression
+      │  │  │     │     │  │  ├─ type: Identifier
+      │  │  │     │     │  │  └─ name: vat
+      │  │  │     │     │  └─ memberName: move
+      │  │  │     │     ├─ arguments
+      │  │  │     │     │  ├─ 0
+      │  │  │     │     │  │  ├─ type: FunctionCall
+      │  │  │     │     │  │  ├─ expression
+      │  │  │     │     │  │  │  ├─ type: ElementaryTypeNameExpression
+      │  │  │     │     │  │  │  └─ typeName
+      │  │  │     │     │  │  │     ├─ type: ElementaryTypeName
+      │  │  │     │     │  │  │     └─ name: address
+      │  │  │     │     │  │  ├─ arguments
+      │  │  │     │     │  │  │  └─ 0
+      │  │  │     │     │  │  │     ├─ type: Identifier
+      │  │  │     │     │  │  │     └─ name: this
+      │  │  │     │     │  │  └─ names
+      │  │  │     │     │  ├─ 1
+      │  │  │     │     │  │  ├─ type: Identifier
+      │  │  │     │     │  │  └─ name: usr
+      │  │  │     │     │  └─ 2
+      │  │  │     │     │     ├─ type: FunctionCall
+      │  │  │     │     │     ├─ expression
+      │  │  │     │     │     │  ├─ type: Identifier
+      │  │  │     │     │     │  └─ name: mul
+      │  │  │     │     │     ├─ arguments
+      │  │  │     │     │     │  ├─ 0
+      │  │  │     │     │     │  │  ├─ type: Identifier
+      │  │  │     │     │     │  │  └─ name: ONE
+      │  │  │     │     │     │  └─ 1
+      │  │  │     │     │     │     ├─ type: Identifier
+      │  │  │     │     │     │     └─ name: wad
+      │  │  │     │     │     └─ names
+      │  │  │     │     └─ names
+      │  │  │     └─ 1
+      │  │  │        ├─ type: ExpressionStatement
+      │  │  │        └─ expression
+      │  │  │           ├─ type: FunctionCall
+      │  │  │           ├─ expression
+      │  │  │           │  ├─ type: MemberAccess
+      │  │  │           │  ├─ expression
+      │  │  │           │  │  ├─ type: Identifier
+      │  │  │           │  │  └─ name: dai
+      │  │  │           │  └─ memberName: burn
+      │  │  │           ├─ arguments
+      │  │  │           │  ├─ 0
+      │  │  │           │  │  ├─ type: MemberAccess
+      │  │  │           │  │  ├─ expression
+      │  │  │           │  │  │  ├─ type: Identifier
+      │  │  │           │  │  │  └─ name: msg
+      │  │  │           │  │  └─ memberName: sender
+      │  │  │           │  └─ 1
+      │  │  │           │     ├─ type: Identifier
+      │  │  │           │     └─ name: wad
+      │  │  │           └─ names
+      │  │  ├─ visibility: public
+      │  │  ├─ modifiers
+      │  │  │  └─ 0
+      │  │  │     ├─ type: ModifierInvocation
+      │  │  │     ├─ name: note
+      │  │  │     └─ arguments
+      │  │  ├─ isConstructor: false
+      │  │  └─ stateMutability
+      │  └─ 6
+      │     ├─ type: FunctionDefinition
+      │     ├─ name: exit
+      │     ├─ parameters
+      │     │  ├─ type: ParameterList
+      │     │  └─ parameters
+      │     │     ├─ 0
+      │     │     │  ├─ type: Parameter
+      │     │     │  ├─ typeName
+      │     │     │  │  ├─ type: ElementaryTypeName
+      │     │     │  │  └─ name: address
+      │     │     │  ├─ name: usr
+      │     │     │  ├─ storageLocation
+      │     │     │  ├─ isStateVar: false
+      │     │     │  └─ isIndexed: false
+      │     │     └─ 1
+      │     │        ├─ type: Parameter
+      │     │        ├─ typeName
+      │     │        │  ├─ type: ElementaryTypeName
+      │     │        │  └─ name: uint
+      │     │        ├─ name: wad
+      │     │        ├─ storageLocation
+      │     │        ├─ isStateVar: false
+      │     │        └─ isIndexed: false
+      │     ├─ returnParameters
+      │     ├─ body
+      │     │  ├─ type: Block
+      │     │  └─ statements
+      │     │     ├─ 0
+      │     │     │  ├─ type: ExpressionStatement
+      │     │     │  └─ expression
+      │     │     │     ├─ type: FunctionCall
+      │     │     │     ├─ expression
+      │     │     │     │  ├─ type: MemberAccess
+      │     │     │     │  ├─ expression
+      │     │     │     │  │  ├─ type: Identifier
+      │     │     │     │  │  └─ name: vat
+      │     │     │     │  └─ memberName: move
+      │     │     │     ├─ arguments
+      │     │     │     │  ├─ 0
+      │     │     │     │  │  ├─ type: MemberAccess
+      │     │     │     │  │  ├─ expression
+      │     │     │     │  │  │  ├─ type: Identifier
+      │     │     │     │  │  │  └─ name: msg
+      │     │     │     │  │  └─ memberName: sender
+      │     │     │     │  ├─ 1
+      │     │     │     │  │  ├─ type: FunctionCall
+      │     │     │     │  │  ├─ expression
+      │     │     │     │  │  │  ├─ type: ElementaryTypeNameExpression
+      │     │     │     │  │  │  └─ typeName
+      │     │     │     │  │  │     ├─ type: ElementaryTypeName
+      │     │     │     │  │  │     └─ name: address
+      │     │     │     │  │  ├─ arguments
+      │     │     │     │  │  │  └─ 0
+      │     │     │     │  │  │     ├─ type: Identifier
+      │     │     │     │  │  │     └─ name: this
+      │     │     │     │  │  └─ names
+      │     │     │     │  └─ 2
+      │     │     │     │     ├─ type: FunctionCall
+      │     │     │     │     ├─ expression
+      │     │     │     │     │  ├─ type: Identifier
+      │     │     │     │     │  └─ name: mul
+      │     │     │     │     ├─ arguments
+      │     │     │     │     │  ├─ 0
+      │     │     │     │     │  │  ├─ type: Identifier
+      │     │     │     │     │  │  └─ name: ONE
+      │     │     │     │     │  └─ 1
+      │     │     │     │     │     ├─ type: Identifier
+      │     │     │     │     │     └─ name: wad
+      │     │     │     │     └─ names
+      │     │     │     └─ names
+      │     │     └─ 1
+      │     │        ├─ type: ExpressionStatement
+      │     │        └─ expression
+      │     │           ├─ type: FunctionCall
+      │     │           ├─ expression
+      │     │           │  ├─ type: MemberAccess
+      │     │           │  ├─ expression
+      │     │           │  │  ├─ type: Identifier
+      │     │           │  │  └─ name: dai
+      │     │           │  └─ memberName: mint
+      │     │           ├─ arguments
+      │     │           │  ├─ 0
+      │     │           │  │  ├─ type: Identifier
+      │     │           │  │  └─ name: usr
+      │     │           │  └─ 1
+      │     │           │     ├─ type: Identifier
+      │     │           │     └─ name: wad
+      │     │           └─ names
+      │     ├─ visibility: public
+      │     ├─ modifiers
+      │     │  └─ 0
+      │     │     ├─ type: ModifierInvocation
+      │     │     ├─ name: note
+      │     │     └─ arguments
+      │     ├─ isConstructor: false
+      │     └─ stateMutability
+      └─ kind: contract
+
