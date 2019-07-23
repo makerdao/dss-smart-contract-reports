@@ -19,6 +19,22 @@ do
 	NAME=$(basename "${c%.sol}")
 	echo $NAME
 	mkdir "${OUT_DIR}/${NAME}"
+	surya describe "$DSS_DIR/src/${NAME}.sol" > ${OUT_DIR}/${NAME}/describe_${NAME}.txt
+	describe="${OUT_DIR}/${NAME}/describe_${NAME}.txt"
+	currentContract=""
+	while IFS= read -r line
+	do
+		ar=($line)
+		echo ${ar[0]}
+		echo ${ar[1]}
+		if [ "${ar[0]}" == "+" ]; then
+			contractName=${ar[1]}
+			surya dependencies ${contractName} "$DSS_DIR/src/${NAME}.sol" > ${OUT_DIR}/${NAME}/dependencies_${contractName}_${NAME}.txt
+		else
+			echo "not contract ${ar}"	
+		fi
+		
+	done < "$describe"
 	surya inheritance $c | dot -Tpng > "${OUT_DIR}/${NAME}/inheritance_${NAME}.png"
 	surya graph $c | dot -Tpng > "${OUT_DIR}/${NAME}/graph_${NAME}.png"
 	surya parse $c > "${OUT_DIR}/${NAME}/parse_${NAME}.txt"
