@@ -1,6 +1,0 @@
- +  DSNote 
-
-
-[33m ($)[39m = payable function
-[31m #[39m = non-constant function
-  
