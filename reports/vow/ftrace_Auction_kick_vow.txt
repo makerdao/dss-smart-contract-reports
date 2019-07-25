@@ -1,2 +1,2 @@
-└─ [32mAuction::kick[39m
+└─ Auction::kick
 

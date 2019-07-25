@@ -1,2 +1,2 @@
-└─ [32mVowLike::fess[39m
+└─ VowLike::fess
 

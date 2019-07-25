@@ -1,4 +1,4 @@
-└─ [32mEnd::free[39m
-   ├─ [33mVatLike::urns | [Pub] ❗️  🛑 [39m
-   └─ [33mVatLike::grab | [Pub] ❗️  🛑 [39m
+└─ End::free
+   ├─ VatLike::urns | [Pub] ❗️  🛑 
+   └─ VatLike::grab | [Pub] ❗️  🛑 
 

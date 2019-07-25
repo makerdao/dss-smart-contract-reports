@@ -1,29 +1,29 @@
  +  Kicker 
-    - [32m[Pub][39m kick[31m #[39m
+    - [Pub] kick #
 
  +  VatLike 
-    - [32m[Pub][39m ilks
-    - [32m[Pub][39m urns
-    - [32m[Pub][39m grab[31m #[39m
-    - [32m[Pub][39m hope[31m #[39m
+    - [Pub] ilks
+    - [Pub] urns
+    - [Pub] grab #
+    - [Pub] hope #
 
  +  VowLike 
-    - [32m[Pub][39m fess[31m #[39m
+    - [Pub] fess #
 
- +  Cat [90m(DSNote)[39m
-    - [32m[Pub][39m rely[31m #[39m
-    - [32m[Pub][39m deny[31m #[39m
-    - [32m[Pub][39m [90m<Constructor>[39m[31m #[39m
-    - [90m[Int][39m mul
-    - [90m[Int][39m rmul
-    - [90m[Int][39m min
-    - [32m[Pub][39m file[31m #[39m
-    - [32m[Pub][39m file[31m #[39m
-    - [32m[Pub][39m file[31m #[39m
-    - [32m[Pub][39m bite[31m #[39m
-    - [32m[Pub][39m cage[31m #[39m
+ +  Cat (DSNote)
+    - [Pub] rely #
+    - [Pub] deny #
+    - [Pub] <Constructor> #
+    - [Int] mul
+    - [Int] rmul
+    - [Int] min
+    - [Pub] file #
+    - [Pub] file #
+    - [Pub] file #
+    - [Pub] bite #
+    - [Pub] cage #
 
 
-[33m ($)[39m = payable function
-[31m #[39m = non-constant function
+ ($) = payable function
+ # = non-constant function
   

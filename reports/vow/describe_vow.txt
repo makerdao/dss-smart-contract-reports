@@ -1,32 +1,32 @@
  +  Auction 
-    - [32m[Pub][39m kick[31m #[39m
-    - [32m[Pub][39m cage[31m #[39m
-    - [32m[Pub][39m cage[31m #[39m
-    - [32m[Pub][39m live[31m #[39m
+    - [Pub] kick #
+    - [Pub] cage #
+    - [Pub] cage #
+    - [Pub] live #
 
  +  VatLike 
-    - [32m[Pub][39m dai
-    - [32m[Pub][39m sin
-    - [32m[Pub][39m heal[31m #[39m
-    - [32m[Pub][39m hope[31m #[39m
+    - [Pub] dai
+    - [Pub] sin
+    - [Pub] heal #
+    - [Pub] hope #
 
- +  Vow [90m(DSNote)[39m
-    - [32m[Pub][39m rely[31m #[39m
-    - [32m[Pub][39m deny[31m #[39m
-    - [32m[Pub][39m [90m<Constructor>[39m[31m #[39m
-    - [90m[Int][39m add
-    - [90m[Int][39m sub
-    - [90m[Int][39m min
-    - [32m[Pub][39m file[31m #[39m
-    - [32m[Pub][39m fess[31m #[39m
-    - [32m[Pub][39m flog[31m #[39m
-    - [32m[Pub][39m heal[31m #[39m
-    - [32m[Pub][39m kiss[31m #[39m
-    - [32m[Pub][39m flop[31m #[39m
-    - [32m[Pub][39m flap[31m #[39m
-    - [32m[Pub][39m cage[31m #[39m
+ +  Vow (DSNote)
+    - [Pub] rely #
+    - [Pub] deny #
+    - [Pub] <Constructor> #
+    - [Int] add
+    - [Int] sub
+    - [Int] min
+    - [Pub] file #
+    - [Pub] fess #
+    - [Pub] flog #
+    - [Pub] heal #
+    - [Pub] kiss #
+    - [Pub] flop #
+    - [Pub] flap #
+    - [Pub] cage #
 
 
-[33m ($)[39m = payable function
-[31m #[39m = non-constant function
+ ($) = payable function
+ # = non-constant function
   

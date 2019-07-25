@@ -1,2 +1,2 @@
-└─ [32mKicker::kick[39m
+└─ Kicker::kick
 

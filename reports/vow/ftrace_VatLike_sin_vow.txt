@@ -1,2 +1,2 @@
-└─ [32mVatLike::sin[39m
+└─ VatLike::sin
 

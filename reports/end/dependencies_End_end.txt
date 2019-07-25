@@ -1,2 +1,2 @@
-[33mEnd[39m
+End
   ↖ DSNote

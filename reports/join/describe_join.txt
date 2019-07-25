@@ -1,33 +1,33 @@
  +  GemLike 
-    - [32m[Pub][39m transfer[31m #[39m
-    - [32m[Pub][39m transferFrom[31m #[39m
+    - [Pub] transfer #
+    - [Pub] transferFrom #
 
  +  DSTokenLike 
-    - [32m[Pub][39m mint[31m #[39m
-    - [32m[Pub][39m burn[31m #[39m
+    - [Pub] mint #
+    - [Pub] burn #
 
  +  VatLike 
-    - [32m[Pub][39m slip[31m #[39m
-    - [32m[Pub][39m move[31m #[39m
-    - [32m[Pub][39m flux[31m #[39m
+    - [Pub] slip #
+    - [Pub] move #
+    - [Pub] flux #
 
- +  GemJoin [90m(DSNote)[39m
-    - [32m[Pub][39m [90m<Constructor>[39m[31m #[39m
-    - [32m[Pub][39m join[31m #[39m
-    - [32m[Pub][39m exit[31m #[39m
+ +  GemJoin (DSNote)
+    - [Pub] <Constructor> #
+    - [Pub] join #
+    - [Pub] exit #
 
- +  ETHJoin [90m(DSNote)[39m
-    - [32m[Pub][39m [90m<Constructor>[39m[31m #[39m
-    - [32m[Pub][39m join[33m ($)[39m
-    - [32m[Pub][39m exit[31m #[39m
+ +  ETHJoin (DSNote)
+    - [Pub] <Constructor> #
+    - [Pub] join ($)
+    - [Pub] exit #
 
- +  DaiJoin [90m(DSNote)[39m
-    - [32m[Pub][39m [90m<Constructor>[39m[31m #[39m
-    - [90m[Int][39m mul
-    - [32m[Pub][39m join[31m #[39m
-    - [32m[Pub][39m exit[31m #[39m
+ +  DaiJoin (DSNote)
+    - [Pub] <Constructor> #
+    - [Int] mul
+    - [Pub] join #
+    - [Pub] exit #
 
 
-[33m ($)[39m = payable function
-[31m #[39m = non-constant function
+ ($) = payable function
+ # = non-constant function
   

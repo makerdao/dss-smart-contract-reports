@@ -1,2 +1,2 @@
-[33mFlapper[39m
+Flapper
   ↖ DSNote

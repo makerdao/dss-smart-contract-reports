@@ -1,4 +1,4 @@
-└─ [32mVat::grab[39m
+└─ Vat::grab
    ├─ Vat::add | [Int] 🔒   
    ├─ Vat::mul | [Int] 🔒   
    └─ Vat::sub | [Int] 🔒   

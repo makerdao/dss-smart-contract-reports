@@ -1,5 +1,5 @@
-└─ [32mEnd::thaw[39m
-   ├─ [33mVatLike::dai | [Pub] ❗️   [39m
+└─ End::thaw
+   ├─ VatLike::dai | [Pub] ❗️   
    ├─ End::add | [Int] 🔒   
-   └─ [33mVatLike::debt | [Pub] ❗️  🛑 [39m
+   └─ VatLike::debt | [Pub] ❗️  🛑 
 

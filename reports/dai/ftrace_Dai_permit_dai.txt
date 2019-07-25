@@ -1,2 +1,2 @@
-└─ [32mDai::permit[39m
+└─ Dai::permit
 

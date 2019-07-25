@@ -1,2 +1,2 @@
-[33mCatLike[39m
+CatLike
 No Dependencies Found

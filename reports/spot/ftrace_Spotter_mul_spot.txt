@@ -1,2 +1,2 @@
-└─ [32mSpotter::mul[39m
+└─ Spotter::mul
 

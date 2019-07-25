@@ -1,2 +1,2 @@
-└─ [32mVatLike::suck[39m
+└─ VatLike::suck
 

@@ -1,7 +1,7 @@
-└─ [32mVow::flop[39m
+└─ Vow::flop
    ├─ Vow::sub | [Int] 🔒   
-   ├─ [33mVatLike::sin | [Pub] ❗️   [39m
-   ├─ [33mVatLike::dai | [Pub] ❗️   [39m
+   ├─ VatLike::sin | [Pub] ❗️   
+   ├─ VatLike::dai | [Pub] ❗️   
    ├─ Vow::add | [Int] 🔒   
-   └─ [33mAuction::kick | [Pub] ❗️  🛑 [39m
+   └─ Auction::kick | [Pub] ❗️  🛑 
 

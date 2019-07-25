@@ -1,4 +1,4 @@
-└─ [32mVat::fold[39m
+└─ Vat::fold
    ├─ Vat::add | [Int] 🔒   
    └─ Vat::mul | [Int] 🔒   
 

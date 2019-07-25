@@ -1,5 +1,5 @@
-└─ [32mPot::exit[39m
+└─ Pot::exit
    ├─ Pot::sub | [Int] 🔒   
-   ├─ [33mVatLike::move | [Pub] ❗️  🛑 [39m
+   ├─ VatLike::move | [Pub] ❗️  🛑 
    └─ Pot::mul | [Int] 🔒   
 

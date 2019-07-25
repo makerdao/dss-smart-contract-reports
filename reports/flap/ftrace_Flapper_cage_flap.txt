@@ -1,3 +1,3 @@
-└─ [32mFlapper::cage[39m
-   └─ [33mVatLike::move | [Pub] ❗️  🛑 [39m
+└─ Flapper::cage
+   └─ VatLike::move | [Pub] ❗️  🛑 
 

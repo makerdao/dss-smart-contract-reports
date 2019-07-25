@@ -1,4 +1,4 @@
-└─ [32mVat::flux[39m
+└─ Vat::flux
    ├─ Vat::wish | [Int] 🔒   
    ├─ Vat::sub | [Int] 🔒   
    └─ Vat::add | [Int] 🔒   

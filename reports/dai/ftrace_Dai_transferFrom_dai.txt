@@ -1,4 +1,4 @@
-└─ [32mDai::transferFrom[39m
+└─ Dai::transferFrom
    ├─ Dai::sub | [Int] 🔒   
    └─ Dai::add | [Int] 🔒   
 

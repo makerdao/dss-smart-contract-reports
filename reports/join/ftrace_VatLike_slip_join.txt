@@ -1,2 +1,2 @@
-└─ [32mVatLike::slip[39m
+└─ VatLike::slip
 

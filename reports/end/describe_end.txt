@@ -1,56 +1,56 @@
  +  VatLike 
-    - [32m[Pub][39m dai
-    - [32m[Pub][39m ilks[31m #[39m
-    - [32m[Pub][39m urns[31m #[39m
-    - [32m[Pub][39m debt[31m #[39m
-    - [32m[Pub][39m move[31m #[39m
-    - [32m[Pub][39m hope[31m #[39m
-    - [32m[Pub][39m flux[31m #[39m
-    - [32m[Pub][39m grab[31m #[39m
-    - [32m[Pub][39m suck[31m #[39m
-    - [32m[Pub][39m cage[31m #[39m
+    - [Pub] dai
+    - [Pub] ilks #
+    - [Pub] urns #
+    - [Pub] debt #
+    - [Pub] move #
+    - [Pub] hope #
+    - [Pub] flux #
+    - [Pub] grab #
+    - [Pub] suck #
+    - [Pub] cage #
 
  +  CatLike 
-    - [32m[Pub][39m ilks[31m #[39m
-    - [32m[Pub][39m cage[31m #[39m
+    - [Pub] ilks #
+    - [Pub] cage #
 
  +  VowLike 
-    - [32m[Pub][39m heal[31m #[39m
-    - [32m[Pub][39m cage[31m #[39m
+    - [Pub] heal #
+    - [Pub] cage #
 
  +  Flippy 
-    - [32m[Pub][39m bids
-    - [32m[Pub][39m yank[31m #[39m
+    - [Pub] bids
+    - [Pub] yank #
 
  +  PipLike 
-    - [32m[Pub][39m read
+    - [Pub] read
 
  +  Spotty 
-    - [32m[Pub][39m ilks
+    - [Pub] ilks
 
- +  End [90m(DSNote)[39m
-    - [32m[Pub][39m rely[31m #[39m
-    - [32m[Pub][39m deny[31m #[39m
-    - [32m[Pub][39m [90m<Constructor>[39m[31m #[39m
-    - [90m[Int][39m add
-    - [90m[Int][39m sub
-    - [90m[Int][39m mul
-    - [90m[Int][39m min
-    - [90m[Int][39m rmul
-    - [90m[Int][39m rdiv
-    - [32m[Pub][39m file[31m #[39m
-    - [32m[Pub][39m file[31m #[39m
-    - [32m[Pub][39m cage[31m #[39m
-    - [32m[Pub][39m cage[31m #[39m
-    - [32m[Pub][39m skip[31m #[39m
-    - [32m[Pub][39m skim[31m #[39m
-    - [32m[Pub][39m free[31m #[39m
-    - [32m[Pub][39m thaw[31m #[39m
-    - [32m[Pub][39m flow[31m #[39m
-    - [32m[Pub][39m pack[31m #[39m
-    - [32m[Pub][39m cash[31m #[39m
+ +  End (DSNote)
+    - [Pub] rely #
+    - [Pub] deny #
+    - [Pub] <Constructor> #
+    - [Int] add
+    - [Int] sub
+    - [Int] mul
+    - [Int] min
+    - [Int] rmul
+    - [Int] rdiv
+    - [Pub] file #
+    - [Pub] file #
+    - [Pub] cage #
+    - [Pub] cage #
+    - [Pub] skip #
+    - [Pub] skim #
+    - [Pub] free #
+    - [Pub] thaw #
+    - [Pub] flow #
+    - [Pub] pack #
+    - [Pub] cash #
 
 
-[33m ($)[39m = payable function
-[31m #[39m = non-constant function
+ ($) = payable function
+ # = non-constant function
   

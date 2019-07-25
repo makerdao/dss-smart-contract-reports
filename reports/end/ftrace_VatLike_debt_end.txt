@@ -1,2 +1,2 @@
-└─ [32mVatLike::debt[39m
+└─ VatLike::debt
 

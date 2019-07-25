@@ -1,5 +1,5 @@
-└─ [32mDaiJoin::exit[39m
-   ├─ [33mVatLike::move | [Pub] ❗️  🛑 [39m
+└─ DaiJoin::exit
+   ├─ VatLike::move | [Pub] ❗️  🛑 
    ├─ DaiJoin::mul | [Int] 🔒   
-   └─ [33mDSTokenLike::mint | [Pub] ❗️  🛑 [39m
+   └─ DSTokenLike::mint | [Pub] ❗️  🛑 
 

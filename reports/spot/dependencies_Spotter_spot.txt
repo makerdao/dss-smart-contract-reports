@@ -1,2 +1,2 @@
-[33mSpotter[39m
+Spotter
   ↖ DSNote

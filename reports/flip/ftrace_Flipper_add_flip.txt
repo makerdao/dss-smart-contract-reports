@@ -1,2 +1,2 @@
-└─ [32mFlipper::add[39m
+└─ Flipper::add
 

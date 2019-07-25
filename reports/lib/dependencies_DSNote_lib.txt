@@ -1,2 +1,2 @@
-[33mDSNote[39m
+DSNote
 No Dependencies Found

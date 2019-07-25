@@ -1,2 +1,2 @@
-└─ [32mCatLike::cage[39m
+└─ CatLike::cage
 

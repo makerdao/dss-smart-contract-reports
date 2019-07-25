@@ -1,4 +1,4 @@
-└─ [32mFlapper::kick[39m
+└─ Flapper::kick
    ├─ Flapper::add | [Int] 🔒   
-   └─ [33mVatLike::move | [Pub] ❗️  🛑 [39m
+   └─ VatLike::move | [Pub] ❗️  🛑 
 

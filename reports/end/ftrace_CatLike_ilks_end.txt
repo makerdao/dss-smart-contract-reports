@@ -1,2 +1,2 @@
-└─ [32mCatLike::ilks[39m
+└─ CatLike::ilks
 

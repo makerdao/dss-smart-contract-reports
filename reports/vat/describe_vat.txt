@@ -1,31 +1,31 @@
  +  Vat 
-    - [32m[Pub][39m rely[31m #[39m
-    - [32m[Pub][39m deny[31m #[39m
-    - [32m[Pub][39m hope[31m #[39m
-    - [32m[Pub][39m nope[31m #[39m
-    - [90m[Int][39m wish
-    - [32m[Pub][39m [90m<Constructor>[39m[31m #[39m
-    - [90m[Int][39m add
-    - [90m[Int][39m sub
-    - [90m[Int][39m mul
-    - [90m[Int][39m add
-    - [90m[Int][39m sub
-    - [90m[Int][39m mul
-    - [32m[Pub][39m init[31m #[39m
-    - [32m[Pub][39m file[31m #[39m
-    - [32m[Pub][39m file[31m #[39m
-    - [32m[Pub][39m cage[31m #[39m
-    - [32m[Pub][39m slip[31m #[39m
-    - [32m[Pub][39m flux[31m #[39m
-    - [32m[Pub][39m move[31m #[39m
-    - [32m[Pub][39m frob[31m #[39m
-    - [32m[Pub][39m fork[31m #[39m
-    - [32m[Pub][39m grab[31m #[39m
-    - [32m[Pub][39m heal[31m #[39m
-    - [32m[Pub][39m suck[31m #[39m
-    - [32m[Pub][39m fold[31m #[39m
+    - [Pub] rely #
+    - [Pub] deny #
+    - [Pub] hope #
+    - [Pub] nope #
+    - [Int] wish
+    - [Pub] <Constructor> #
+    - [Int] add
+    - [Int] sub
+    - [Int] mul
+    - [Int] add
+    - [Int] sub
+    - [Int] mul
+    - [Pub] init #
+    - [Pub] file #
+    - [Pub] file #
+    - [Pub] cage #
+    - [Pub] slip #
+    - [Pub] flux #
+    - [Pub] move #
+    - [Pub] frob #
+    - [Pub] fork #
+    - [Pub] grab #
+    - [Pub] heal #
+    - [Pub] suck #
+    - [Pub] fold #
 
 
-[33m ($)[39m = payable function
-[31m #[39m = non-constant function
+ ($) = payable function
+ # = non-constant function
   

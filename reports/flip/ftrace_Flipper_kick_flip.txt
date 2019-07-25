@@ -1,4 +1,4 @@
-└─ [32mFlipper::kick[39m
+└─ Flipper::kick
    ├─ Flipper::add | [Int] 🔒   
-   └─ [33mVatLike::flux | [Pub] ❗️  🛑 [39m
+   └─ VatLike::flux | [Pub] ❗️  🛑 
 

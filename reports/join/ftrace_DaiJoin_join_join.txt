@@ -1,5 +1,5 @@
-└─ [32mDaiJoin::join[39m
-   ├─ [33mVatLike::move | [Pub] ❗️  🛑 [39m
+└─ DaiJoin::join
+   ├─ VatLike::move | [Pub] ❗️  🛑 
    ├─ DaiJoin::mul | [Int] 🔒   
-   └─ [33mDSTokenLike::burn | [Pub] ❗️  🛑 [39m
+   └─ DSTokenLike::burn | [Pub] ❗️  🛑 
 

@@ -1,4 +1,4 @@
-└─ [32mDai::push[39m
+└─ Dai::push
    └─ Dai::transferFrom | [Pub] ❗️  🛑 
       ├─ Dai::sub | [Int] 🔒   
       └─ Dai::add | [Int] 🔒   

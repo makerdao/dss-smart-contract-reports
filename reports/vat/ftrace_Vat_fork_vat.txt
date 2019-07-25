@@ -1,4 +1,4 @@
-└─ [32mVat::fork[39m
+└─ Vat::fork
    ├─ Vat::sub | [Int] 🔒   
    ├─ Vat::add | [Int] 🔒   
    ├─ Vat::mul | [Int] 🔒   

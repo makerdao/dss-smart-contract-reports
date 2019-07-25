@@ -1,2 +1,2 @@
-└─ [32mFlipper::rely[39m
+└─ Flipper::rely
 

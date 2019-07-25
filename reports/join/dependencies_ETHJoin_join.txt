@@ -1,2 +1,2 @@
-[33mETHJoin[39m
+ETHJoin
   ↖ DSNote

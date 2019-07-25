@@ -1,2 +1,2 @@
-[33mPipLike[39m
+PipLike
 No Dependencies Found

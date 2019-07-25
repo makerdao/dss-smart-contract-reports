@@ -1,2 +1,2 @@
-└─ [32mDai::<Constructor>[39m
+└─ Dai::<Constructor>
 

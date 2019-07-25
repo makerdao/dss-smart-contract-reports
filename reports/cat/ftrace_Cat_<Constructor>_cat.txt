@@ -1,2 +1,2 @@
-└─ [32mCat::<Constructor>[39m
+└─ Cat::<Constructor>
 

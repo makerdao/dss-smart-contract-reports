@@ -1,4 +1,4 @@
-└─ [32mETHJoin::exit[39m
-   ├─ [33mVatLike::slip | [Pub] ❗️  🛑 [39m
-   └─ [33m#address [usr]::transfer | [Pub] ❗️  🛑 [39m
+└─ ETHJoin::exit
+   ├─ VatLike::slip | [Pub] ❗️  🛑 
+   └─ #address [usr]::transfer | [Pub] ❗️  🛑 
 

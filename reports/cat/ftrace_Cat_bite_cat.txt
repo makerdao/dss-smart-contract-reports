@@ -1,11 +1,11 @@
-└─ [32mCat::bite[39m
-   ├─ [33mVatLike::ilks | [Pub] ❗️   [39m
-   ├─ [33mVatLike::urns | [Pub] ❗️   [39m
+└─ Cat::bite
+   ├─ VatLike::ilks | [Pub] ❗️   
+   ├─ VatLike::urns | [Pub] ❗️   
    ├─ Cat::mul | [Int] 🔒   
    ├─ Cat::min | [Int] 🔒   
-   ├─ [33mVatLike::grab | [Pub] ❗️  🛑 [39m
-   ├─ [33mVowLike::fess | [Pub] ❗️  🛑 [39m
-   ├─ [33mKicker::kick | [Pub] ❗️  🛑 [39m
+   ├─ VatLike::grab | [Pub] ❗️  🛑 
+   ├─ VowLike::fess | [Pub] ❗️  🛑 
+   ├─ Kicker::kick | [Pub] ❗️  🛑 
    └─ Cat::rmul | [Int] 🔒   
       └─ Cat::mul | [Int] 🔒   
 

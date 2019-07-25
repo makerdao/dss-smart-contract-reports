@@ -1,2 +1,2 @@
-└─ [32mVatLike::ilks[39m
+└─ VatLike::ilks
 

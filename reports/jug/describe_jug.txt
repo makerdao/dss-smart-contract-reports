@@ -1,22 +1,22 @@
  +  VatLike 
-    - [32m[Pub][39m ilks[31m #[39m
-    - [32m[Pub][39m fold[31m #[39m
+    - [Pub] ilks #
+    - [Pub] fold #
 
- +  Jug [90m(DSNote)[39m
-    - [32m[Pub][39m rely[31m #[39m
-    - [32m[Pub][39m deny[31m #[39m
-    - [32m[Pub][39m [90m<Constructor>[39m[31m #[39m
-    - [90m[Int][39m rpow
-    - [90m[Int][39m add
-    - [90m[Int][39m diff
-    - [90m[Int][39m rmul
-    - [32m[Pub][39m init[31m #[39m
-    - [32m[Pub][39m file[31m #[39m
-    - [32m[Pub][39m file[31m #[39m
-    - [32m[Pub][39m file[31m #[39m
-    - [32m[Pub][39m drip[31m #[39m
+ +  Jug (DSNote)
+    - [Pub] rely #
+    - [Pub] deny #
+    - [Pub] <Constructor> #
+    - [Int] rpow
+    - [Int] add
+    - [Int] diff
+    - [Int] rmul
+    - [Pub] init #
+    - [Pub] file #
+    - [Pub] file #
+    - [Pub] file #
+    - [Pub] drip #
 
 
-[33m ($)[39m = payable function
-[31m #[39m = non-constant function
+ ($) = payable function
+ # = non-constant function
   

@@ -1,3 +1,3 @@
-└─ [32mVow::fess[39m
+└─ Vow::fess
    └─ Vow::add | [Int] 🔒   
 

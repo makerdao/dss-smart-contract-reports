@@ -1,23 +1,23 @@
  +  VatLike 
-    - [32m[Pub][39m move[31m #[39m
+    - [Pub] move #
 
  +  GemLike 
-    - [32m[Pub][39m mint[31m #[39m
+    - [Pub] mint #
 
- +  Flopper [90m(DSNote)[39m
-    - [32m[Pub][39m rely[31m #[39m
-    - [32m[Pub][39m deny[31m #[39m
-    - [32m[Pub][39m [90m<Constructor>[39m[31m #[39m
-    - [90m[Int][39m add
-    - [90m[Int][39m mul
-    - [32m[Pub][39m file[31m #[39m
-    - [32m[Pub][39m kick[31m #[39m
-    - [32m[Pub][39m dent[31m #[39m
-    - [32m[Pub][39m deal[31m #[39m
-    - [32m[Pub][39m cage[31m #[39m
-    - [32m[Pub][39m yank[31m #[39m
+ +  Flopper (DSNote)
+    - [Pub] rely #
+    - [Pub] deny #
+    - [Pub] <Constructor> #
+    - [Int] add
+    - [Int] mul
+    - [Pub] file #
+    - [Pub] kick #
+    - [Pub] dent #
+    - [Pub] deal #
+    - [Pub] cage #
+    - [Pub] yank #
 
 
-[33m ($)[39m = payable function
-[31m #[39m = non-constant function
+ ($) = payable function
+ # = non-constant function
   

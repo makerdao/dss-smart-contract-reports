@@ -1,2 +1,2 @@
-└─ [32mVowLike::cage[39m
+└─ VowLike::cage
 

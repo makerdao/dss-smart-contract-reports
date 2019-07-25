@@ -1,293 +1,293 @@
  +  Kicker 
-    - [32m[Pub][39m kick[31m #[39m
+    - [Pub] kick #
 
  +  VatLike 
-    - [32m[Pub][39m ilks
-    - [32m[Pub][39m urns
-    - [32m[Pub][39m grab[31m #[39m
-    - [32m[Pub][39m hope[31m #[39m
+    - [Pub] ilks
+    - [Pub] urns
+    - [Pub] grab #
+    - [Pub] hope #
 
  +  VowLike 
-    - [32m[Pub][39m fess[31m #[39m
+    - [Pub] fess #
 
- +  Cat [90m(DSNote)[39m
-    - [32m[Pub][39m rely[31m #[39m
-    - [32m[Pub][39m deny[31m #[39m
-    - [32m[Pub][39m [90m<Constructor>[39m[31m #[39m
-    - [90m[Int][39m mul
-    - [90m[Int][39m rmul
-    - [90m[Int][39m min
-    - [32m[Pub][39m file[31m #[39m
-    - [32m[Pub][39m file[31m #[39m
-    - [32m[Pub][39m file[31m #[39m
-    - [32m[Pub][39m bite[31m #[39m
-    - [32m[Pub][39m cage[31m #[39m
+ +  Cat (DSNote)
+    - [Pub] rely #
+    - [Pub] deny #
+    - [Pub] <Constructor> #
+    - [Int] mul
+    - [Int] rmul
+    - [Int] min
+    - [Pub] file #
+    - [Pub] file #
+    - [Pub] file #
+    - [Pub] bite #
+    - [Pub] cage #
 
- +  Dai [90m(DSNote)[39m
-    - [32m[Pub][39m rely[31m #[39m
-    - [32m[Pub][39m deny[31m #[39m
-    - [90m[Int][39m add
-    - [90m[Int][39m sub
-    - [32m[Pub][39m [90m<Constructor>[39m[31m #[39m
-    - [32m[Pub][39m transfer[31m #[39m
-    - [32m[Pub][39m transferFrom[31m #[39m
-    - [32m[Pub][39m mint[31m #[39m
-    - [32m[Pub][39m burn[31m #[39m
-    - [32m[Pub][39m approve[31m #[39m
-    - [32m[Pub][39m push[31m #[39m
-    - [32m[Pub][39m pull[31m #[39m
-    - [32m[Pub][39m move[31m #[39m
-    - [32m[Pub][39m permit[31m #[39m
+ +  Dai (DSNote)
+    - [Pub] rely #
+    - [Pub] deny #
+    - [Int] add
+    - [Int] sub
+    - [Pub] <Constructor> #
+    - [Pub] transfer #
+    - [Pub] transferFrom #
+    - [Pub] mint #
+    - [Pub] burn #
+    - [Pub] approve #
+    - [Pub] push #
+    - [Pub] pull #
+    - [Pub] move #
+    - [Pub] permit #
 
  +  VatLike 
-    - [32m[Pub][39m dai
-    - [32m[Pub][39m ilks[31m #[39m
-    - [32m[Pub][39m urns[31m #[39m
-    - [32m[Pub][39m debt[31m #[39m
-    - [32m[Pub][39m move[31m #[39m
-    - [32m[Pub][39m hope[31m #[39m
-    - [32m[Pub][39m flux[31m #[39m
-    - [32m[Pub][39m grab[31m #[39m
-    - [32m[Pub][39m suck[31m #[39m
-    - [32m[Pub][39m cage[31m #[39m
+    - [Pub] dai
+    - [Pub] ilks #
+    - [Pub] urns #
+    - [Pub] debt #
+    - [Pub] move #
+    - [Pub] hope #
+    - [Pub] flux #
+    - [Pub] grab #
+    - [Pub] suck #
+    - [Pub] cage #
 
  +  CatLike 
-    - [32m[Pub][39m ilks[31m #[39m
-    - [32m[Pub][39m cage[31m #[39m
+    - [Pub] ilks #
+    - [Pub] cage #
 
  +  VowLike 
-    - [32m[Pub][39m heal[31m #[39m
-    - [32m[Pub][39m cage[31m #[39m
+    - [Pub] heal #
+    - [Pub] cage #
 
  +  Flippy 
-    - [32m[Pub][39m bids
-    - [32m[Pub][39m yank[31m #[39m
+    - [Pub] bids
+    - [Pub] yank #
 
  +  PipLike 
-    - [32m[Pub][39m read
+    - [Pub] read
 
  +  Spotty 
-    - [32m[Pub][39m ilks
+    - [Pub] ilks
 
- +  End [90m(DSNote)[39m
-    - [32m[Pub][39m rely[31m #[39m
-    - [32m[Pub][39m deny[31m #[39m
-    - [32m[Pub][39m [90m<Constructor>[39m[31m #[39m
-    - [90m[Int][39m add
-    - [90m[Int][39m sub
-    - [90m[Int][39m mul
-    - [90m[Int][39m min
-    - [90m[Int][39m rmul
-    - [90m[Int][39m rdiv
-    - [32m[Pub][39m file[31m #[39m
-    - [32m[Pub][39m file[31m #[39m
-    - [32m[Pub][39m cage[31m #[39m
-    - [32m[Pub][39m cage[31m #[39m
-    - [32m[Pub][39m skip[31m #[39m
-    - [32m[Pub][39m skim[31m #[39m
-    - [32m[Pub][39m free[31m #[39m
-    - [32m[Pub][39m thaw[31m #[39m
-    - [32m[Pub][39m flow[31m #[39m
-    - [32m[Pub][39m pack[31m #[39m
-    - [32m[Pub][39m cash[31m #[39m
-
- +  VatLike 
-    - [32m[Pub][39m move[31m #[39m
-
- +  GemLike 
-    - [32m[Pub][39m move[31m #[39m
-
- +  Flapper [90m(DSNote)[39m
-    - [32m[Pub][39m rely[31m #[39m
-    - [32m[Pub][39m deny[31m #[39m
-    - [32m[Pub][39m [90m<Constructor>[39m[31m #[39m
-    - [90m[Int][39m add
-    - [90m[Int][39m mul
-    - [32m[Pub][39m file[31m #[39m
-    - [32m[Pub][39m kick[31m #[39m
-    - [32m[Pub][39m tend[31m #[39m
-    - [32m[Pub][39m deal[31m #[39m
-    - [32m[Pub][39m cage[31m #[39m
-    - [32m[Pub][39m yank[31m #[39m
+ +  End (DSNote)
+    - [Pub] rely #
+    - [Pub] deny #
+    - [Pub] <Constructor> #
+    - [Int] add
+    - [Int] sub
+    - [Int] mul
+    - [Int] min
+    - [Int] rmul
+    - [Int] rdiv
+    - [Pub] file #
+    - [Pub] file #
+    - [Pub] cage #
+    - [Pub] cage #
+    - [Pub] skip #
+    - [Pub] skim #
+    - [Pub] free #
+    - [Pub] thaw #
+    - [Pub] flow #
+    - [Pub] pack #
+    - [Pub] cash #
 
  +  VatLike 
-    - [32m[Pub][39m move[31m #[39m
-    - [32m[Pub][39m flux[31m #[39m
+    - [Pub] move #
 
- +  Flipper [90m(DSNote)[39m
-    - [32m[Pub][39m rely[31m #[39m
-    - [32m[Pub][39m deny[31m #[39m
-    - [32m[Pub][39m [90m<Constructor>[39m[31m #[39m
-    - [90m[Int][39m add
-    - [90m[Int][39m mul
-    - [32m[Pub][39m file[31m #[39m
-    - [32m[Pub][39m kick[31m #[39m
-    - [32m[Pub][39m tick[31m #[39m
-    - [32m[Pub][39m tend[31m #[39m
-    - [32m[Pub][39m dent[31m #[39m
-    - [32m[Pub][39m deal[31m #[39m
-    - [32m[Pub][39m yank[31m #[39m
+ +  GemLike 
+    - [Pub] move #
+
+ +  Flapper (DSNote)
+    - [Pub] rely #
+    - [Pub] deny #
+    - [Pub] <Constructor> #
+    - [Int] add
+    - [Int] mul
+    - [Pub] file #
+    - [Pub] kick #
+    - [Pub] tend #
+    - [Pub] deal #
+    - [Pub] cage #
+    - [Pub] yank #
 
  +  VatLike 
-    - [32m[Pub][39m move[31m #[39m
+    - [Pub] move #
+    - [Pub] flux #
+
+ +  Flipper (DSNote)
+    - [Pub] rely #
+    - [Pub] deny #
+    - [Pub] <Constructor> #
+    - [Int] add
+    - [Int] mul
+    - [Pub] file #
+    - [Pub] kick #
+    - [Pub] tick #
+    - [Pub] tend #
+    - [Pub] dent #
+    - [Pub] deal #
+    - [Pub] yank #
+
+ +  VatLike 
+    - [Pub] move #
 
  +  GemLike 
-    - [32m[Pub][39m mint[31m #[39m
+    - [Pub] mint #
 
- +  Flopper [90m(DSNote)[39m
-    - [32m[Pub][39m rely[31m #[39m
-    - [32m[Pub][39m deny[31m #[39m
-    - [32m[Pub][39m [90m<Constructor>[39m[31m #[39m
-    - [90m[Int][39m add
-    - [90m[Int][39m mul
-    - [32m[Pub][39m file[31m #[39m
-    - [32m[Pub][39m kick[31m #[39m
-    - [32m[Pub][39m dent[31m #[39m
-    - [32m[Pub][39m deal[31m #[39m
-    - [32m[Pub][39m cage[31m #[39m
-    - [32m[Pub][39m yank[31m #[39m
+ +  Flopper (DSNote)
+    - [Pub] rely #
+    - [Pub] deny #
+    - [Pub] <Constructor> #
+    - [Int] add
+    - [Int] mul
+    - [Pub] file #
+    - [Pub] kick #
+    - [Pub] dent #
+    - [Pub] deal #
+    - [Pub] cage #
+    - [Pub] yank #
 
  +  GemLike 
-    - [32m[Pub][39m transfer[31m #[39m
-    - [32m[Pub][39m transferFrom[31m #[39m
+    - [Pub] transfer #
+    - [Pub] transferFrom #
 
  +  DSTokenLike 
-    - [32m[Pub][39m mint[31m #[39m
-    - [32m[Pub][39m burn[31m #[39m
+    - [Pub] mint #
+    - [Pub] burn #
 
  +  VatLike 
-    - [32m[Pub][39m slip[31m #[39m
-    - [32m[Pub][39m move[31m #[39m
-    - [32m[Pub][39m flux[31m #[39m
+    - [Pub] slip #
+    - [Pub] move #
+    - [Pub] flux #
 
- +  GemJoin [90m(DSNote)[39m
-    - [32m[Pub][39m [90m<Constructor>[39m[31m #[39m
-    - [32m[Pub][39m join[31m #[39m
-    - [32m[Pub][39m exit[31m #[39m
+ +  GemJoin (DSNote)
+    - [Pub] <Constructor> #
+    - [Pub] join #
+    - [Pub] exit #
 
- +  ETHJoin [90m(DSNote)[39m
-    - [32m[Pub][39m [90m<Constructor>[39m[31m #[39m
-    - [32m[Pub][39m join[33m ($)[39m
-    - [32m[Pub][39m exit[31m #[39m
+ +  ETHJoin (DSNote)
+    - [Pub] <Constructor> #
+    - [Pub] join ($)
+    - [Pub] exit #
 
- +  DaiJoin [90m(DSNote)[39m
-    - [32m[Pub][39m [90m<Constructor>[39m[31m #[39m
-    - [90m[Int][39m mul
-    - [32m[Pub][39m join[31m #[39m
-    - [32m[Pub][39m exit[31m #[39m
+ +  DaiJoin (DSNote)
+    - [Pub] <Constructor> #
+    - [Int] mul
+    - [Pub] join #
+    - [Pub] exit #
 
  +  VatLike 
-    - [32m[Pub][39m ilks[31m #[39m
-    - [32m[Pub][39m fold[31m #[39m
+    - [Pub] ilks #
+    - [Pub] fold #
 
- +  Jug [90m(DSNote)[39m
-    - [32m[Pub][39m rely[31m #[39m
-    - [32m[Pub][39m deny[31m #[39m
-    - [32m[Pub][39m [90m<Constructor>[39m[31m #[39m
-    - [90m[Int][39m rpow
-    - [90m[Int][39m add
-    - [90m[Int][39m diff
-    - [90m[Int][39m rmul
-    - [32m[Pub][39m init[31m #[39m
-    - [32m[Pub][39m file[31m #[39m
-    - [32m[Pub][39m file[31m #[39m
-    - [32m[Pub][39m file[31m #[39m
-    - [32m[Pub][39m drip[31m #[39m
+ +  Jug (DSNote)
+    - [Pub] rely #
+    - [Pub] deny #
+    - [Pub] <Constructor> #
+    - [Int] rpow
+    - [Int] add
+    - [Int] diff
+    - [Int] rmul
+    - [Pub] init #
+    - [Pub] file #
+    - [Pub] file #
+    - [Pub] file #
+    - [Pub] drip #
 
  +  DSNote 
 
  +  VatLike 
-    - [32m[Pub][39m move[31m #[39m
-    - [32m[Pub][39m suck[31m #[39m
+    - [Pub] move #
+    - [Pub] suck #
 
- +  Pot [90m(DSNote)[39m
-    - [32m[Pub][39m rely[31m #[39m
-    - [32m[Pub][39m deny[31m #[39m
-    - [32m[Pub][39m [90m<Constructor>[39m[31m #[39m
-    - [90m[Int][39m rpow
-    - [90m[Int][39m rmul
-    - [90m[Int][39m add
-    - [90m[Int][39m sub
-    - [90m[Int][39m mul
-    - [32m[Pub][39m file[31m #[39m
-    - [32m[Pub][39m file[31m #[39m
-    - [32m[Pub][39m drip[31m #[39m
-    - [32m[Pub][39m join[31m #[39m
-    - [32m[Pub][39m exit[31m #[39m
+ +  Pot (DSNote)
+    - [Pub] rely #
+    - [Pub] deny #
+    - [Pub] <Constructor> #
+    - [Int] rpow
+    - [Int] rmul
+    - [Int] add
+    - [Int] sub
+    - [Int] mul
+    - [Pub] file #
+    - [Pub] file #
+    - [Pub] drip #
+    - [Pub] join #
+    - [Pub] exit #
 
  +  VatLike 
-    - [32m[Pub][39m file[31m #[39m
+    - [Pub] file #
 
  +  PipLike 
-    - [32m[Pub][39m peek[31m #[39m
+    - [Pub] peek #
 
- +  Spotter [90m(DSNote)[39m
-    - [32m[Pub][39m rely[31m #[39m
-    - [32m[Pub][39m deny[31m #[39m
-    - [32m[Pub][39m [90m<Constructor>[39m[31m #[39m
-    - [90m[Int][39m mul
-    - [90m[Int][39m rdiv
-    - [32m[Pub][39m file[31m #[39m
-    - [32m[Pub][39m file[31m #[39m
-    - [32m[Pub][39m file[31m #[39m
-    - [32m[Pub][39m poke[31m #[39m
+ +  Spotter (DSNote)
+    - [Pub] rely #
+    - [Pub] deny #
+    - [Pub] <Constructor> #
+    - [Int] mul
+    - [Int] rdiv
+    - [Pub] file #
+    - [Pub] file #
+    - [Pub] file #
+    - [Pub] poke #
 
  +  Vat 
-    - [32m[Pub][39m rely[31m #[39m
-    - [32m[Pub][39m deny[31m #[39m
-    - [32m[Pub][39m hope[31m #[39m
-    - [32m[Pub][39m nope[31m #[39m
-    - [90m[Int][39m wish
-    - [32m[Pub][39m [90m<Constructor>[39m[31m #[39m
-    - [90m[Int][39m add
-    - [90m[Int][39m sub
-    - [90m[Int][39m mul
-    - [90m[Int][39m add
-    - [90m[Int][39m sub
-    - [90m[Int][39m mul
-    - [32m[Pub][39m init[31m #[39m
-    - [32m[Pub][39m file[31m #[39m
-    - [32m[Pub][39m file[31m #[39m
-    - [32m[Pub][39m cage[31m #[39m
-    - [32m[Pub][39m slip[31m #[39m
-    - [32m[Pub][39m flux[31m #[39m
-    - [32m[Pub][39m move[31m #[39m
-    - [32m[Pub][39m frob[31m #[39m
-    - [32m[Pub][39m fork[31m #[39m
-    - [32m[Pub][39m grab[31m #[39m
-    - [32m[Pub][39m heal[31m #[39m
-    - [32m[Pub][39m suck[31m #[39m
-    - [32m[Pub][39m fold[31m #[39m
+    - [Pub] rely #
+    - [Pub] deny #
+    - [Pub] hope #
+    - [Pub] nope #
+    - [Int] wish
+    - [Pub] <Constructor> #
+    - [Int] add
+    - [Int] sub
+    - [Int] mul
+    - [Int] add
+    - [Int] sub
+    - [Int] mul
+    - [Pub] init #
+    - [Pub] file #
+    - [Pub] file #
+    - [Pub] cage #
+    - [Pub] slip #
+    - [Pub] flux #
+    - [Pub] move #
+    - [Pub] frob #
+    - [Pub] fork #
+    - [Pub] grab #
+    - [Pub] heal #
+    - [Pub] suck #
+    - [Pub] fold #
 
  +  Auction 
-    - [32m[Pub][39m kick[31m #[39m
-    - [32m[Pub][39m cage[31m #[39m
-    - [32m[Pub][39m cage[31m #[39m
-    - [32m[Pub][39m live[31m #[39m
+    - [Pub] kick #
+    - [Pub] cage #
+    - [Pub] cage #
+    - [Pub] live #
 
  +  VatLike 
-    - [32m[Pub][39m dai
-    - [32m[Pub][39m sin
-    - [32m[Pub][39m heal[31m #[39m
-    - [32m[Pub][39m hope[31m #[39m
+    - [Pub] dai
+    - [Pub] sin
+    - [Pub] heal #
+    - [Pub] hope #
 
- +  Vow [90m(DSNote)[39m
-    - [32m[Pub][39m rely[31m #[39m
-    - [32m[Pub][39m deny[31m #[39m
-    - [32m[Pub][39m [90m<Constructor>[39m[31m #[39m
-    - [90m[Int][39m add
-    - [90m[Int][39m sub
-    - [90m[Int][39m min
-    - [32m[Pub][39m file[31m #[39m
-    - [32m[Pub][39m fess[31m #[39m
-    - [32m[Pub][39m flog[31m #[39m
-    - [32m[Pub][39m heal[31m #[39m
-    - [32m[Pub][39m kiss[31m #[39m
-    - [32m[Pub][39m flop[31m #[39m
-    - [32m[Pub][39m flap[31m #[39m
-    - [32m[Pub][39m cage[31m #[39m
+ +  Vow (DSNote)
+    - [Pub] rely #
+    - [Pub] deny #
+    - [Pub] <Constructor> #
+    - [Int] add
+    - [Int] sub
+    - [Int] min
+    - [Pub] file #
+    - [Pub] fess #
+    - [Pub] flog #
+    - [Pub] heal #
+    - [Pub] kiss #
+    - [Pub] flop #
+    - [Pub] flap #
+    - [Pub] cage #
 
 
-[33m ($)[39m = payable function
-[31m #[39m = non-constant function
+ ($) = payable function
+ # = non-constant function
   

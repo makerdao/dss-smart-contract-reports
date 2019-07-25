@@ -1,5 +1,5 @@
-└─ [32mVow::kiss[39m
-   ├─ [33mVatLike::dai | [Pub] ❗️   [39m
+└─ Vow::kiss
+   ├─ VatLike::dai | [Pub] ❗️   
    ├─ Vow::sub | [Int] 🔒   
-   └─ [33mVatLike::heal | [Pub] ❗️  🛑 [39m
+   └─ VatLike::heal | [Pub] ❗️  🛑 
 

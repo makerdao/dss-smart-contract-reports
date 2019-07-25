@@ -1,2 +1,2 @@
-└─ [32mSpotter::<Constructor>[39m
+└─ Spotter::<Constructor>
 

@@ -1,2 +1,2 @@
-[33mGemJoin[39m
+GemJoin
   ↖ DSNote

@@ -1,2 +1,2 @@
-[33mPot[39m
+Pot
   ↖ DSNote

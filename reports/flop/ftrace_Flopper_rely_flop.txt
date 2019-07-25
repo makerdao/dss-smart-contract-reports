@@ -1,2 +1,2 @@
-└─ [32mFlopper::rely[39m
+└─ Flopper::rely
 

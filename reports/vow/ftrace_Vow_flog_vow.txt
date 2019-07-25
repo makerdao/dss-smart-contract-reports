@@ -1,4 +1,4 @@
-└─ [32mVow::flog[39m
+└─ Vow::flog
    ├─ Vow::add | [Int] 🔒   
    └─ Vow::sub | [Int] 🔒   
 

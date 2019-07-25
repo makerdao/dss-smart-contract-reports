@@ -1,2 +1,2 @@
-└─ [32mVatLike::fold[39m
+└─ VatLike::fold
 

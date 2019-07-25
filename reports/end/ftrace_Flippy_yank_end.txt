@@ -1,2 +1,2 @@
-└─ [32mFlippy::yank[39m
+└─ Flippy::yank
 

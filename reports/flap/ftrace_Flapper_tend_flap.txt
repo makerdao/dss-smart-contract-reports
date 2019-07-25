@@ -1,5 +1,5 @@
-└─ [32mFlapper::tend[39m
+└─ Flapper::tend
    ├─ Flapper::mul | [Int] 🔒   
-   ├─ [33mGemLike::move | [Pub] ❗️  🛑 [39m
+   ├─ GemLike::move | [Pub] ❗️  🛑 
    └─ Flapper::add | [Int] 🔒   
 

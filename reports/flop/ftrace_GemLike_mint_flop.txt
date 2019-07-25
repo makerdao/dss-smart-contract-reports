@@ -1,2 +1,2 @@
-└─ [32mGemLike::mint[39m
+└─ GemLike::mint
 

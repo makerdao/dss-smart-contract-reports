@@ -1,2 +1,2 @@
-└─ [32mVatLike::file[39m
+└─ VatLike::file
 

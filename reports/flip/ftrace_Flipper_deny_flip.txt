@@ -1,2 +1,2 @@
-└─ [32mFlipper::deny[39m
+└─ Flipper::deny
 

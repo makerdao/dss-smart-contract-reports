@@ -1,2 +1,2 @@
-└─ [32mFlapper::add[39m
+└─ Flapper::add
 

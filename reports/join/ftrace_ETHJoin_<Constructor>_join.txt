@@ -1,2 +1,2 @@
-└─ [32mETHJoin::<Constructor>[39m
+└─ ETHJoin::<Constructor>
 

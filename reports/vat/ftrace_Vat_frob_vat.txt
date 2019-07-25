@@ -1,4 +1,4 @@
-└─ [32mVat::frob[39m
+└─ Vat::frob
    ├─ Vat::add | [Int] 🔒   
    ├─ Vat::mul | [Int] 🔒   
    ├─ Vat::sub | [Int] 🔒   

@@ -1,2 +1,2 @@
-└─ [32mGemJoin::<Constructor>[39m
+└─ GemJoin::<Constructor>
 

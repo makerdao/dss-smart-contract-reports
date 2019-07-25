@@ -1,2 +1,2 @@
-└─ [32mVatLike::flux[39m
+└─ VatLike::flux
 

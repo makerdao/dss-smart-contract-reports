@@ -1,2 +1,2 @@
-[33mVowLike[39m
+VowLike
 No Dependencies Found

@@ -1,9 +1,9 @@
-└─ [32mPot::drip[39m
+└─ Pot::drip
    ├─ Pot::sub | [Int] 🔒   
    ├─ Pot::rmul | [Int] 🔒   
    │  └─ Pot::mul | [Int] 🔒   
    ├─ Pot::rpow | [Int] 🔒   
    ├─ Pot::add | [Int] 🔒   
-   ├─ [33mVatLike::suck | [Pub] ❗️  🛑 [39m
+   ├─ VatLike::suck | [Pub] ❗️  🛑 
    └─ Pot::mul | [Int] 🔒   
 

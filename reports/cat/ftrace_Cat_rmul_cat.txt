@@ -1,3 +1,3 @@
-└─ [32mCat::rmul[39m
+└─ Cat::rmul
    └─ Cat::mul | [Int] 🔒   
 

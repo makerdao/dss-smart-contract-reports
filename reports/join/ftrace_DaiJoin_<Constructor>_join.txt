@@ -1,2 +1,2 @@
-└─ [32mDaiJoin::<Constructor>[39m
+└─ DaiJoin::<Constructor>
 

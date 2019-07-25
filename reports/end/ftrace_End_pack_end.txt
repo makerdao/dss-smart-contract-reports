@@ -1,5 +1,5 @@
-└─ [32mEnd::pack[39m
-   ├─ [33mVatLike::move | [Pub] ❗️  🛑 [39m
+└─ End::pack
+   ├─ VatLike::move | [Pub] ❗️  🛑 
    ├─ End::mul | [Int] 🔒   
    └─ End::add | [Int] 🔒   
 

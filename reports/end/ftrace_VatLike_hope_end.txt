@@ -1,2 +1,2 @@
-└─ [32mVatLike::hope[39m
+└─ VatLike::hope
 

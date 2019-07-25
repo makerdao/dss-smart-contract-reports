@@ -1,2 +1,2 @@
-└─ [32mDai::approve[39m
+└─ Dai::approve
 

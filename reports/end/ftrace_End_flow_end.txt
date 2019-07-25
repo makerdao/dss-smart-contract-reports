@@ -1,5 +1,5 @@
-└─ [32mEnd::flow[39m
-   ├─ [33mVatLike::ilks | [Pub] ❗️   [39m
+└─ End::flow
+   ├─ VatLike::ilks | [Pub] ❗️   
    ├─ End::rmul | [Int] 🔒   
    │  └─ End::mul | [Int] 🔒   
    ├─ End::rdiv | [Int] 🔒   

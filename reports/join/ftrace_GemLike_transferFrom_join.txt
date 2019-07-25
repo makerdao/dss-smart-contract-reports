@@ -1,2 +1,2 @@
-└─ [32mGemLike::transferFrom[39m
+└─ GemLike::transferFrom
 

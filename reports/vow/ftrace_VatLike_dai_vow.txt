@@ -1,2 +1,2 @@
-└─ [32mVatLike::dai[39m
+└─ VatLike::dai
 

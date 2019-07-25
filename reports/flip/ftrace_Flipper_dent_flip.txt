@@ -1,6 +1,6 @@
-└─ [32mFlipper::dent[39m
+└─ Flipper::dent
    ├─ Flipper::mul | [Int] 🔒   
-   ├─ [33mVatLike::move | [Pub] ❗️  🛑 [39m
-   ├─ [33mVatLike::flux | [Pub] ❗️  🛑 [39m
+   ├─ VatLike::move | [Pub] ❗️  🛑 
+   ├─ VatLike::flux | [Pub] ❗️  🛑 
    └─ Flipper::add | [Int] 🔒   
 

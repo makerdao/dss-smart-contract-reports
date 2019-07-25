@@ -1,2 +1,2 @@
-└─ [32mFlopper::mul[39m
+└─ Flopper::mul
 

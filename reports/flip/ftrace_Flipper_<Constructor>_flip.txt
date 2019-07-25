@@ -1,2 +1,2 @@
-└─ [32mFlipper::<Constructor>[39m
+└─ Flipper::<Constructor>
 

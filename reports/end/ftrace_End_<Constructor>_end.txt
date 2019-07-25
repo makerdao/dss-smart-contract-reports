@@ -1,2 +1,2 @@
-└─ [32mEnd::<Constructor>[39m
+└─ End::<Constructor>
 
