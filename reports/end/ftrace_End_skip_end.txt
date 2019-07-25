@@ -1,0 +1,9 @@
+└─ [32mEnd::skip[39m
+   ├─ [33mCatLike::ilks | [Pub] ❗️   [39m
+   ├─ [33mFlippy::bids | [Pub] ❗️   [39m
+   ├─ [33mVatLike::suck | [Pub] ❗️  🛑 [39m
+   ├─ [33mVatLike::hope | [Pub] ❗️  🛑 [39m
+   ├─ [33mFlippy::yank | [Pub] ❗️  🛑 [39m
+   ├─ End::add | [Int] 🔒   
+   └─ [33mVatLike::grab | [Pub] ❗️  🛑 [39m
+

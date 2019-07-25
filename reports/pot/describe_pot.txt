@@ -1,0 +1,23 @@
+ +  VatLike 
+    - [32m[Pub][39m move[31m #[39m
+    - [32m[Pub][39m suck[31m #[39m
+
+ +  Pot [90m(DSNote)[39m
+    - [32m[Pub][39m rely[31m #[39m
+    - [32m[Pub][39m deny[31m #[39m
+    - [32m[Pub][39m [90m<Constructor>[39m[31m #[39m
+    - [90m[Int][39m rpow
+    - [90m[Int][39m rmul
+    - [90m[Int][39m add
+    - [90m[Int][39m sub
+    - [90m[Int][39m mul
+    - [32m[Pub][39m file[31m #[39m
+    - [32m[Pub][39m file[31m #[39m
+    - [32m[Pub][39m drip[31m #[39m
+    - [32m[Pub][39m join[31m #[39m
+    - [32m[Pub][39m exit[31m #[39m
+
+
+[33m ($)[39m = payable function
+[31m #[39m = non-constant function
+  

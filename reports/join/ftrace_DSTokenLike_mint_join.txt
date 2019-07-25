@@ -1,0 +1,2 @@
+└─ [32mDSTokenLike::mint[39m
+

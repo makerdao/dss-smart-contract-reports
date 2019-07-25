@@ -1,0 +1,5 @@
+└─ [32mPot::join[39m
+   ├─ Pot::add | [Int] 🔒   
+   ├─ [33mVatLike::move | [Pub] ❗️  🛑 [39m
+   └─ Pot::mul | [Int] 🔒   
+

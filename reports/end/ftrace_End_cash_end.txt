@@ -1,0 +1,6 @@
+└─ [32mEnd::cash[39m
+   ├─ [33mVatLike::flux | [Pub] ❗️  🛑 [39m
+   ├─ End::rmul | [Int] 🔒   
+   │  └─ End::mul | [Int] 🔒   
+   └─ End::add | [Int] 🔒   
+

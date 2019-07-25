@@ -1,0 +1,4 @@
+└─ [32mFlipper::yank[39m
+   ├─ [33mVatLike::flux | [Pub] ❗️  🛑 [39m
+   └─ [33mVatLike::move | [Pub] ❗️  🛑 [39m
+

@@ -1,0 +1,3 @@
+└─ [32mFlipper::tick[39m
+   └─ Flipper::add | [Int] 🔒   
+

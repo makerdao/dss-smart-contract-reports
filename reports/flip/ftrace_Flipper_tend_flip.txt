@@ -1,0 +1,5 @@
+└─ [32mFlipper::tend[39m
+   ├─ Flipper::mul | [Int] 🔒   
+   ├─ [33mVatLike::move | [Pub] ❗️  🛑 [39m
+   └─ Flipper::add | [Int] 🔒   
+

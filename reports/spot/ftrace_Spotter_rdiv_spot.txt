@@ -1,0 +1,3 @@
+└─ [32mSpotter::rdiv[39m
+   └─ Spotter::mul | [Int] 🔒   
+

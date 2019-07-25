@@ -1,0 +1,6 @@
+└─ [32mSpotter::poke[39m
+   ├─ Spotter::rdiv | [Int] 🔒   
+   │  └─ Spotter::mul | [Int] 🔒   
+   ├─ Spotter::mul | [Int] 🔒   
+   └─ [33mVatLike::file | [Pub] ❗️  🛑 [39m
+

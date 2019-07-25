@@ -1,0 +1,5 @@
+└─ [32mFlapper::tend[39m
+   ├─ Flapper::mul | [Int] 🔒   
+   ├─ [33mGemLike::move | [Pub] ❗️  🛑 [39m
+   └─ Flapper::add | [Int] 🔒   
+

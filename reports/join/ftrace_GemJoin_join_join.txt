@@ -1,0 +1,4 @@
+└─ [32mGemJoin::join[39m
+   ├─ [33mVatLike::slip | [Pub] ❗️  🛑 [39m
+   └─ [33mGemLike::transferFrom | [Pub] ❗️  🛑 [39m
+

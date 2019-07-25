@@ -1,0 +1,5 @@
+└─ [32mFlopper::dent[39m
+   ├─ Flopper::mul | [Int] 🔒   
+   ├─ [33mVatLike::move | [Pub] ❗️  🛑 [39m
+   └─ Flopper::add | [Int] 🔒   
+

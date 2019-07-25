@@ -1,0 +1,8 @@
+└─ [32mJug::drip[39m
+   ├─ [33mVatLike::ilks | [Pub] ❗️  🛑 [39m
+   ├─ [33mVatLike::fold | [Pub] ❗️  🛑 [39m
+   ├─ Jug::diff | [Int] 🔒   
+   ├─ Jug::rmul | [Int] 🔒   
+   ├─ Jug::rpow | [Int] 🔒   
+   └─ Jug::add | [Int] 🔒   
+

@@ -1,0 +1,6 @@
+└─ [32mVat::fork[39m
+   ├─ Vat::sub | [Int] 🔒   
+   ├─ Vat::add | [Int] 🔒   
+   ├─ Vat::mul | [Int] 🔒   
+   └─ Vat::wish | [Int] 🔒   
+

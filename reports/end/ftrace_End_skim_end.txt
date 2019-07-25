@@ -1,0 +1,10 @@
+└─ [32mEnd::skim[39m
+   ├─ [33mVatLike::ilks | [Pub] ❗️   [39m
+   ├─ [33mVatLike::urns | [Pub] ❗️  🛑 [39m
+   ├─ End::rmul | [Int] 🔒   
+   │  └─ End::mul | [Int] 🔒   
+   ├─ End::min | [Int] 🔒   
+   ├─ End::add | [Int] 🔒   
+   ├─ End::sub | [Int] 🔒   
+   └─ [33mVatLike::grab | [Pub] ❗️  🛑 [39m
+

@@ -1,0 +1,7 @@
+└─ [32mVow::cage[39m
+   ├─ [33mAuction::cage | [Pub] ❗️  🛑 [39m
+   ├─ [33mVatLike::dai | [Pub] ❗️   [39m
+   ├─ [33mVatLike::heal | [Pub] ❗️  🛑 [39m
+   ├─ Vow::min | [Int] 🔒   
+   └─ [33mVatLike::sin | [Pub] ❗️   [39m
+

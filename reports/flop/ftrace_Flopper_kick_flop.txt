@@ -1,0 +1,3 @@
+└─ [32mFlopper::kick[39m
+   └─ Flopper::add | [Int] 🔒   
+

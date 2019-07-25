@@ -1,0 +1,5 @@
+└─ [32mEnd::pack[39m
+   ├─ [33mVatLike::move | [Pub] ❗️  🛑 [39m
+   ├─ End::mul | [Int] 🔒   
+   └─ End::add | [Int] 🔒   
+
